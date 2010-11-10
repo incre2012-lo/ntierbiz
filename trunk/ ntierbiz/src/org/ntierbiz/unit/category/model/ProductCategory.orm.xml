@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="org.ntierbiz.unit.category.model.ProductCategoryPO" table="PRODUCT_CATEGORY" >
+		<id name="id" type="java.lang.String" column="PRODUCTCATEGORYID">		
+			<generator class="uuid" />
+		</id>	
+		
+		<property name="name" column="NAME" type="java.lang.String"/>
+		<property name="levels" column="LEVELS" type="java.lang.String"/>
+		<property name="groupIDHierarchyFlag" column="GROUPID_HIERARCHY_FLAG" type="int"/>
+		<property name="multipleAssignmentsFlag" column="MULTIPLE_ASSIGNMT_FLAG" type="int"/>
+		<property name="leafAssignmentsFlag" column="LEAF_ASSIGNMT_FLAG" type="int"/>
+		<property name="inheritanceEnabledFlag" column="INHERIT_ENABLED_FLAG" type="int"/>	
+		<property name="createdBy" column="CREATED_BY" type="java.lang.String"/>
+		<property name="modifiedBy" column="MODIFIED_BY" type="java.lang.String"/>
+		<property name="lastModified" column="LAST_MODIFIED" type="java.sql.Date"/>
+		
+		<set name="parties" inverse="true" table="PARTY_STD_CATEGORY_ASSIGNMT">
+				<key column="PRODUCTCATEGORYID"/>
+				<many-to-many column="PARTYID" class="org.ntierbiz.unit.party.model.PartyPO"/>
+		</set>
+		
+		<many-to-one name="categoryType" column="CATEGORYTYPEID" not-null="true" class="org.ntierbiz.unit.category.model.CategoryTypePO" />
+				
+		<many-to-one name="categoryContent" column="CATEGORYCONTENTID" unique="true" not-null="true" class="org.ntierbiz.unit.category.model.CategoryContentPO" />
+		
+		<set name="categoryAttributes"  table="CATEGORY_ATTRIBUTE_ASSIGNMT" >
+			<key column="PRODUCTCATEGORYID" />
+			<many-to-many column="CATEGORYATTRIBUTEID" unique="true" class="org.ntierbiz.unit.category.model.CategoryAttributePO"/>
+		</set>
+		
+		<set name="sharedCategoryAttributes"  table="CATEGORY_SHARED_ATTRIBUTE_ASSIGNMT" >
+			<key column="PRODUCTCATEGORYID" />
+			<many-to-many column="CATEGORYATTRIBUTEID" class="org.ntierbiz.unit.category.model.CategoryAttributePO"/>
+		</set>
+	
+	</class>
+</hibernate-mapping>

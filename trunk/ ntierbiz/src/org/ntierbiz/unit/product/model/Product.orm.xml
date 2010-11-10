@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="org.ntierbiz.unit.product.model.ProductPO" table="PRODUCT" >
+		<id name="id" type="java.lang.String" column="PRODUCTID">		
+			<generator class="uuid" />
+		</id>	
+		<property name="createdBy" column="CREATED_BY" type="java.lang.String"/>
+		<property name="modifiedBy" column="MODIFIED_BY" type="java.lang.String"/>
+		<property name="lastModified" column="LAST_MODIFIED" type="java.sql.Date"/>
+		<set name="sharedParties" inverse="true" table="PARTY_SHARED_PRODUCT_ASSIGNMT">
+				<key column="PRODUCTID"/>
+				<many-to-many column="PARTYID" class="org.ntierbiz.unit.party.model.PartyPO"/>
+		</set>
+		<join table="PARTY_PRODUCT_ASSIGNMT" inverse="true" optional="true">
+			<key column="PRODUCTID"/>
+			<many-to-one name="party" column="PARTYID" not-null="true" class="org.ntierbiz.unit.party.model.PartyPO" />
+		</join>
+		
+		
+	</class>
+</hibernate-mapping>

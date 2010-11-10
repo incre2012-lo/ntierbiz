@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="org.ntierbiz.unit.party.model.PartyAttributePO" table="PARTY_ATTRIBUTE" >
+		<id name="id" type="java.lang.String" column="PARTYATTRIBUTEID">		
+			<generator class="uuid" />
+		</id>		
+		<property name="name" column="NAME" type="java.lang.String"/>
+		<property name="stringValue" column="STRING_VALUE" type="java.lang.String"/>
+		<property name="ObjectType" column="OBJECT_TYPE" type="java.lang.String"/>
+		<property name="intValue" column="INT_VALUE" type="java.lang.Integer"/>		
+		<property name="createdBy" column="CREATED_BY" type="java.lang.String"/>
+		<property name="modifiedBy" column="MODIFIED_BY" type="java.lang.String"/>
+		<property name="lastModified" column="LAST_MODIFIED" type="java.sql.Date"/>
+		
+		<set name="parties" inverse="true" table="PARTY_SHARED_ATTRIBUTE_ASSIGNMT">
+				<key column="PARTYATTRIBUTEID"/>
+				<many-to-many column="PARTYID" class="org.ntierbiz.unit.party.model.PartyPO"/>
+		</set>
+		
+	</class>
+</hibernate-mapping>

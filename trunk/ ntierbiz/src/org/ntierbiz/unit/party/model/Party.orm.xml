@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="org.ntierbiz.unit.party.model.PartyPO" table="PARTY" >
+		<id name="id" type="java.lang.String" column="PARTYID">		
+			<generator class="uuid" />
+		</id>	
+		<property name="typeCode" column="TYPE_CODE" type="int"/>
+		<property name="partyID" column="BUSINESS_ID" type="java.lang.String"/>
+		<property name="name" column="NAME" type="java.lang.String"/>
+		<property name="lastName" column="LAST_NAME" type="java.lang.String"/>
+		<property name="telphone" column="TELEPHONE" type="java.lang.String"/>
+		<property name="email" column="EMAIL" type="java.lang.String"/>
+		<property name="password" column="PASSWORD" type="java.lang.String"/>
+		<property name="firstName" column="FIRST_NAME" type="java.lang.String"/>	
+		<property name="createdBy" column="CREATED_BY" type="java.lang.String"/>
+		<property name="modifiedBy" column="MODIFIED_BY" type="java.lang.String"/>
+		<property name="lastModified" column="LAST_MODIFIED" type="java.sql.Date"/>
+		
+		<set name="localProductCategories"  table="PARTY_LOCAL_CATEGORY_ASSIGNMT" >
+			<key column="PARTYID" />
+			<many-to-many column="PRODUCTCATEGORYID" unique="true" class="+"/>
+		</set>
+		
+		<set name="standardProductCategories"  table="PARTY_STD_CATEGORY_ASSIGNMT" >
+			<key column="PARTYID" />
+			<many-to-many column="PRODUCTCATEGORYID" class="org.ntierbiz.unit.category.model.ProductCategoryPO"/>
+		</set>
+		
+		<many-to-one name="partyContent" column="PARTYCONTENTID" unique="true" not-null="true" class="org.ntierbiz.unit.party.model.PartyContentPO" />
+		
+		<set name="partyAttributes"  table="PARTY_ATTRIBUTE_ASSIGNMT" >
+			<key column="PARTYID" />
+			<many-to-many column="PARTYATTRIBUTEID" unique="true" class="org.ntierbiz.unit.party.model.PartyAttributePO"/>
+		</set>
+		
+		<set name="sharedPartyAttributes"  table="PARTY_SHARED_ATTRIBUTE_ASSIGNMT" >
+			<key column="PARTYID" />
+			<many-to-many column="PARTYATTRIBUTEID" class="org.ntierbiz.unit.party.model.PartyAttributePO"/>
+		</set>
+
+		<many-to-one name="partyType" column="PARTYTYPEID" not-null="true" class="org.ntierbiz.unit.party.model.PartyTypePO" />
+		
+		<set name="products"  table="PARTY_PRODUCT_ASSIGNMT" >
+			<key column="PARTYID" />
+			<many-to-many column="PRODUCTID" unique="true" class="org.ntierbiz.unit.product.model.ProductPO"/>
+		</set>
+		
+		<set name="sharedProducts"  table="PARTY_SHARED_PRODUCT_ASSIGNMT" >
+			<key column="PARTYID" />
+			<many-to-many column="PRODUCTID" class="org.ntierbiz.unit.product.model.ProductPO"/>
+		</set>
+		
+	</class>
+</hibernate-mapping>

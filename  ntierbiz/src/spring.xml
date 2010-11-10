@@ -4,10 +4,10 @@ xsi:schemaLocation="http://www.springframework.org/schema/beans
 http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
 	
 	<!-- Database Configuration -->
-	<import resource="com/estratg/core/orm/config/DataSource.xml"/>
-	<import resource="com/estratg/core/orm/config/HibernateSessionFactory.xml"/>
+	<import resource="org/ntierbiz/core/orm/config/DataSource.xml"/>
+	<import resource="org/ntierbiz/core/orm/config/HibernateSessionFactory.xml"/>
  
 	<!-- Beans Declaration -->
-	<import resource="com/estratg/core/user/action/User-IoC.xml"/>
+	<import resource="org/ntierbiz/core/user/action/User-IoC.xml"/>
  
 </beans>

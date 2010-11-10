@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="org.ntierbiz.unit.party.model.PartyContentPO" table="PARTY_CONTENT" >
+		<id name="id" type="java.lang.String" column="PARTYCONTENTID" >		
+			<generator class="uuid" />
+		</id>	
+		
+		<property name="smallDescription" column="SMALL_DESC" type="java.lang.String"/>
+		<property name="longDescription" column="LONG_DESC" type="java.lang.String"/>
+		<property name="logo" column="LOGO" type="java.lang.String"/>
+		<property name="thumbnail" column="THUMBNAIL" type="java.lang.String"/>
+		<property name="title" column="TITLE" type="java.lang.String"/>
+		<property name="image" column="IMAGE" type="java.lang.String"/>
+		<property name="rating" column="RATING" type="java.lang.String"/>
+		<property name="country" column="COUNTRY" type="java.lang.String"/>
+		<property name="province" column="PROVINCE" type="java.lang.String"/>
+		<property name="city" column="CITY" type="java.lang.String"/>
+		<property name="countryCode" column="COUNTRY_CODE" type="java.lang.String"/>	
+		<property name="pincode" column="PINCODE" type="java.lang.String"/>
+		<property name="street1" column="STREET1" type="java.lang.String"/>
+		<property name="createdBy" column="CREATED_BY" type="java.lang.String"/>
+		<property name="modifiedBy" column="MODIFIED_BY" type="java.lang.String"/>
+		<property name="lastModified" column="LAST_MODIFIED" type="java.sql.Date"/>
+	</class>
+</hibernate-mapping>

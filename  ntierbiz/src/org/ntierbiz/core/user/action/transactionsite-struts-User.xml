@@ -9,8 +9,12 @@
 	<constant name="struts.devMode" value="false" />
 	<constant name="struts.custom.i18n.resources"
 		value="ApplicationResources" />
-  
-  <include file="org/ntierbiz/core/user/action/transactionsite-struts-User.xml"></include>
 
- 
+<package name="transactionsite" namespace="/" extends="struts-default">  
+  	<action name="user-*" method="{1}" class="userAction" >
+		<result name="input">transactionsite/user/User.jsp</result>
+		<result name="success">transactionsite/user/User.jsp</result>
+		<result name="list">transactionsite/user/UserList.jsp</result>
+	</action>
+</package>
 </struts>

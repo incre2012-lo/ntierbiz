@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    <package name="system-default" extends="struts-default">
+    	<interceptors>
+			<interceptor name="login" class="com.paldaps.system.core.interceptor.LoginInterceptor" />
+			<interceptor name="defValStackDic" class="com.paldaps.system.core.interceptor.DefaultValueStackInterceptor" />
+			
+			<interceptor-stack name="defaultLoginStack">			
+				<interceptor-ref name="params" />
+				<interceptor-ref name="login" />
+				<interceptor-ref name="defValStackDic" />
+				<interceptor-ref name="defaultStack"/>
+			</interceptor-stack>
+			
+			<interceptor-stack name="defaultParmsPrepareLoginStack">
+				<interceptor-ref name="params" />
+				<interceptor-ref name="login" />						
+				<interceptor-ref name="paramsPrepareParamsStack"/>				
+				<interceptor-ref name="defValStackDic" />		
+			</interceptor-stack>
+
+			<interceptor-stack name="defaultJSONLoginStack">			
+				<interceptor-ref name="params" />
+				<interceptor-ref name="login" />
+				<interceptor-ref name="defaultStack"/>
+			</interceptor-stack>
+
+			<interceptor-stack name="defaultInsecureStack">
+				<interceptor-ref name="defaultStack"/>
+			</interceptor-stack>
+		</interceptors>
+		
+		<default-interceptor-ref name="defaultLoginStack" />
+		<default-action-ref name="index" />
+        
+		<global-results>
+			<result name="login">pages/Login.jsp</result>
+			<result name="login-success">pages/Index.jsp</result>
+		</global-results>
+
+		<action name="index">
+			<result name="input">pages/Index.jsp</result>
+			<result name="success">pages/Index.jsp</result>
+		</action>
+    </package>
+ 
+</struts>

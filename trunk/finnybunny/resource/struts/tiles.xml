@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!--
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ *
+ */
+-->
+
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+ 	<definition name="system.login" template="/pages/layout/Middle.jsp">
+   		<put-attribute name="header" value="/pages/inc/Header.jsp"/>
+    	<put-attribute name="main" value="/pages/home/Login.jsp"/>
+    </definition>
+    <definition name="system.home" template="/pages/layout/Default.jsp">
+   		<put-attribute name="header" value="/pages/inc/Header.jsp"/>
+  		<put-attribute name="sidebar" value="/pages/inc/SideBar.jsp"/>
+    	<put-attribute name="main" value="/pages/home/Home.jsp"/>
+    	<put-attribute name="SelectedMenu" type="string" value="Landing"/>
+    </definition>
+    <definition name="system.usermgmt" extends="system.home">
+    	<put-attribute name="main" value="/pages/user/Register.jsp"/>
+    	<put-attribute name="SelectedMenu" type="string" value="UserMgmt"/>
+    </definition>
+     <definition name="system.usermgmt.password" extends="system.home">
+    	<put-attribute name="main" value="/pages/user/Password.jsp"/>
+    	<put-attribute name="SelectedMenu" type="string" value="UserMgmt"/>
+    </definition>
+    <definition name="system.upload" extends="system.home">
+    	<put-attribute name="main" value="/pages/file/FileList.jsp"/>
+    	<put-attribute name="SelectedMenu" type="string" value="Upload"/>
+    </definition>
+     <definition name="system.emp" extends="system.home">
+    	<put-attribute name="main" value="/pages/emp/EmployeeList.jsp"/>
+    	<put-attribute name="SelectedMenu" type="string" value="EmpMgmt"/>
+    </definition>
+    <definition name="system.emp.det" extends="system.home">
+    	<put-attribute name="main" value="/pages/emp/Employee.jsp"/>
+    	<put-attribute name="SelectedMenu" type="string" value="EmpMgmt"/>
+    </definition>
+     <definition name="system.emp.amtsumm" extends="system.home">
+    	<put-attribute name="main" value="/pages/emp/EmployeeMonthlyList.jsp"/>
+    	<put-attribute name="SelectedMenu" type="string" value="EmpMgmt"/>
+    </definition>
+     <definition name="system.wait" extends="system.home">
+    	<put-attribute name="main" value="/pages/job/Wait.jsp"/>
+    	<put-attribute name="SelectedMenu" type="string" value="JobMgmt"/>
+    </definition>
+     <definition name="system.done" extends="system.home">
+    	<put-attribute name="main" value="/pages/job/Success.jsp"/>
+    	<put-attribute name="SelectedMenu" type="string" value="JobMgmt" />
+    </definition>
+</tiles-definitions>

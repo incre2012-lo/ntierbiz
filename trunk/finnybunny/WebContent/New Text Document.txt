@@ -1,0 +1,5 @@
+SELECT temp . *
+FROM temp
+LEFT JOIN employee ON temp.emP_name = employee.emP_name
+AND temp.per_no = employee.per_no
+WHERE employee.per_no IS NULL

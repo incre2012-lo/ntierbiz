@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    <package name="struts-fin" extends="system-default,tiles-default" namespace="/">
+    	<default-interceptor-ref name="defaultLoginStack" />
+    	<default-action-ref name="index" />
+    	<global-results>
+			<result name="login" type="tiles">system.login</result>
+			<result name="login-success" type="tiles">system.home</result>
+		</global-results>
+
+		<action name="logout" method="logout" class="com.paldaps.action.login.LoginAction">			
+			<result name="success" type="redirect">login</result>
+			<result name="error" type="redirect">login</result>
+		</action>
+		<action name="index">
+			<result name="input" type="tiles">system.home</result>
+			<result name="success" type="tiles">system.home</result>
+		</action>		
+		
+		<action name="generatePasswordInput"  method="generatePasswordInput" class="com.paldaps.action.user.UserCRUDAction">
+			<result name="success" type="tiles">system.usermgmt.password</result>
+		</action>
+		<action name="generatePassword"  method="generatePassword" class="com.paldaps.action.user.UserCRUDAction">
+			<result name="input" type="tiles">system.usermgmt.password</result>
+			<result name="success" type="redirect">listUser</result>			
+		</action>
+		<action name="listUser" method="list" class="com.paldaps.action.user.UserCRUDAction">
+			<result name="success" type="tiles">system.usermgmt</result>
+			<result name="input" type="tiles">system.usermgmt</result>
+		</action>
+		<action name="createUser" method="create" class="com.paldaps.action.user.UserCRUDAction">
+			<result name="input" type="tiles">system.usermgmt</result>
+			<result name="success" type="redirect">listUser</result>
+		</action>
+		<action name="editUser" method="edit" class="com.paldaps.action.user.UserCRUDAction">
+			<result name="success" type="tiles">system.usermgmt</result>
+			<result name="input" type="tiles">system.usermgmt</result>			
+		</action>
+		<action name="updateUser" method="update" class="com.paldaps.action.user.UserCRUDAction">
+			<result name="success" type="redirect">listUser</result>
+			<result name="input" type="tiles">system.usermgmt</result>
+		</action>
+		<action name="deleteUser" method="delete" class="com.paldaps.action.user.UserCRUDAction">
+			<result name="success" type="redirect">listUser</result>
+		</action>
+				
+		<action name="uploadFile"
+			class="com.paldaps.action.file.FileUploadAction">
+			<interceptor-ref name="fileUpload">
+				<param name="maximumSize">17179869184</param>				
+			</interceptor-ref>
+			<interceptor-ref name="defaultLoginStack"></interceptor-ref>
+			<result name="success" type="tiles">system.upload</result>
+			<result name="input" type="tiles">system.upload</result>
+		</action>
+		<action name="deleteFile"	method="delete" 	class="com.paldaps.action.file.FileCRUDAction">
+			<result name="success" type="tiles">system.upload</result>
+		</action>
+		  <action name="downloadFile" class="com.paldaps.action.file.FileDownloadAction">
+				<result name="success" type="stream">
+				  <param name="contentType">application/octet-stream</param>
+				  <param name="inputName">fileInputStream</param>
+				   <param name="contentDisposition">attachment;filename=%{fileName}</param>
+				  <param name="bufferSize">4096</param>
+				</result>
+  		 </action>
+  		 <action name="processImportFile" class="com.paldaps.action.job.ProcessImportAction">  			
+  			<interceptor-ref name="defaultStack"/>
+  		 	<interceptor-ref name="defValStackDic" />
+  		 	<interceptor-ref name="execAndWait"></interceptor-ref>
+			<result name="wait" type="tiles">system.wait</result>
+			<result name="success" type="tiles">system.done</result>
+			<param name="fileLocation">file.location</param>
+		</action>
+		<action name="publish" method="publish" class="com.paldaps.action.job.ProcessImportAction">
+  			 <interceptor-ref name="defaultLoginStack"/>
+  		 	<interceptor-ref name="execAndWait"></interceptor-ref>
+			<result name="wait" type="tiles">system.wait</result>
+			<result name="success" type="tiles">system.done</result>
+		</action>
+		 <action name="lastUpload" method="lastUpload" class="com.paldaps.action.job.ProcessImportAction">
+  				<result name="success" type="tiles">system.done</result>
+		</action>
+		 <action name="empListURL" method="list" class="com.paldaps.action.emp.EmployeeAction">
+  				<result name="success" type="tiles">system.emp</result>
+		</action>
+		<action name="empDetails" method="display" class="com.paldaps.action.emp.EmployeeAction">
+  				<result name="success" type="tiles">system.emp.det</result>
+		</action>
+		<action name="showYearStmt" method="showYearStmt" class="com.paldaps.action.emp.EmployeeAction">
+  				<result name="success" type="tiles">system.emp.det</result>
+		</action>	
+		<action name="showMonthlyStmt" method="showMonthlyStmt" class="com.paldaps.action.emp.EmployeeAction">
+  				<result name="success" type="tiles">system.emp.amtsumm</result>
+		</action>		
+		<action name="addAmount" method="addAmount" class="com.paldaps.action.emp.EmployeeAction">	
+  				<result name="input" type="tiles">system.emp.det</result>  
+  				<result name="success" type="tiles">system.emp.amtsumm</result>  								
+		</action>
+		<action name="addOpening" method="addOpening" class="com.paldaps.action.emp.EmployeeAction">
+  				<result name="input" type="tiles">system.emp.det</result>  
+  				<result name="success" type="tiles">system.emp.det</result>  							
+		</action>
+    </package>
+    <package name="struts-json" extends="system-default,json-default" namespace="/json">
+    	<default-interceptor-ref name="defaultJSONLoginStack" />
+    	<action name="demo" class="com.paldaps.action.json.DemoJsonAction">
+			<result name="success" type="json"></result>
+		</action>
+		<action name="employee" class="com.paldaps.action.emp.EmployeeJsonAction">
+			<result name="success" type="json">
+				<param name="excludeProperties">
+        			^rows\[\d+\]\.advGPFEntries,^rows\[\d+\]\.recGPFEntries,^rows\[\d+\]\.subsGPFEntries,^rows\[\d+\]\.widrlsGPFEntries,^rows\[\d+\]\.employeeOpnAndClsGPFEntries
+    			</param>
+			</result>
+		</action>
+    </package> 
+    
+     
+</struts>

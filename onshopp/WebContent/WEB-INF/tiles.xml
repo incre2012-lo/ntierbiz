@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!--
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ *
+ */
+-->
+
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+
+    <definition name="shop.index" template="/shop/layout/catalog/default.jsp">
+    	<put-attribute name="openWrapperStr" value="/shop/layout/catalog/openWrapper.jsp" type="string"/>
+        <put-attribute name="openWrapper" value="/shop/layout/catalog/openWrapper.jsp"/>
+        <put-attribute name="header" value="/shop/layout/catalog/header.jsp"/>
+        <put-attribute name="openBody" value="/shop/layout/catalog/openBody.jsp" />
+        <put-attribute name="body" value="/shop/layout/catalog/landing.jsp"/>
+        <put-attribute name="closeBody" value="/shop/layout/catalog/closeBody.jsp"/>
+        <put-attribute name="closeWrapper" value="/shop/layout/catalog/closeWrapper.jsp"/>
+        <put-attribute name="footer" value="/shop/layout/catalog/footer.jsp"/>
+    </definition>
+     <definition name="shop.browse" template="/shop/layout/catalog/default.jsp">
+    	<put-attribute name="openWrapperStr" value="/shop/layout/catalog/openWrapper.jsp" type="string"/>
+        <put-attribute name="openWrapper" value="/shop/layout/catalog/openWrapper.jsp"/>
+        <put-attribute name="header" value="/shop/layout/catalog/header.jsp"/>
+        <put-attribute name="openBody" value="/shop/layout/catalog/openBody.jsp" />
+        <put-attribute name="body" value="/shop/layout/catalog/category.jsp"/>
+        <put-attribute name="closeBody" value="/shop/layout/catalog/closeBody.jsp"/>
+        <put-attribute name="closeWrapper" value="/shop/layout/catalog/closeWrapper.jsp"/>
+        <put-attribute name="footer" value="/shop/layout/catalog/footer.jsp"/>
+    </definition>
+     <definition name="shop.details" template="/shop/layout/catalog/default.jsp">
+    	<put-attribute name="openWrapperStr" value="/shop/layout/catalog/openWrapper.jsp" type="string"/>
+        <put-attribute name="openWrapper" value="/shop/layout/catalog/openWrapper.jsp"/>
+        <put-attribute name="header" value="/shop/layout/catalog/header.jsp"/>
+        <put-attribute name="openBody" value="/shop/layout/catalog/openBody.jsp" />
+        <put-attribute name="body" value="/shop/layout/catalog/product.jsp"/>
+        <put-attribute name="closeBody" value="/shop/layout/catalog/closeBody.jsp"/>
+        <put-attribute name="closeWrapper" value="/shop/layout/catalog/closeWrapper.jsp"/>
+        <put-attribute name="footer" value="/shop/layout/catalog/footer.jsp"/>
+    </definition>
+     <definition name="checkout.ajaxwiz.step1.a" template="/shop/layout/checkout/checkout.jsp">
+    	<put-attribute name="openWrapperStr" value="/shop/layout/catalog/openWrapper.jsp" type="string"/>
+        <put-attribute name="openBody" value="/shop/layout/catalog/openBody.jsp" />
+        <put-attribute name="body" value="/shop/layout/checkout/cologin.jsp"/>
+        <put-attribute name="closeBody" value="/shop/layout/catalog/closeBody.jsp"/>
+        <put-attribute name="closeWrapper" value="/shop/layout/catalog/closeWrapper.jsp"/>       
+    </definition>
+     <definition name="checkout.ajaxwiz.step1.b" template="/shop/layout/checkout/checkout.jsp">
+    	<put-attribute name="openWrapperStr" value="/shop/layout/catalog/openWrapper.jsp" type="string"/>
+        <put-attribute name="openBody" value="/shop/layout/catalog/openBody.jsp" />
+        <put-attribute name="body" value="/shop/layout/checkout/register.jsp"/>
+        <put-attribute name="closeBody" value="/shop/layout/catalog/closeBody.jsp"/>
+        <put-attribute name="closeWrapper" value="/shop/layout/catalog/closeWrapper.jsp"/>       
+    </definition>
+     <definition name="checkout.ajaxwiz.step1.c" template="/shop/layout/checkout/checkout.jsp">
+    	<put-attribute name="openWrapperStr" value="/shop/layout/catalog/openWrapper.jsp" type="string"/>
+        <put-attribute name="openBody" value="/shop/layout/catalog/openBody.jsp" />
+        <put-attribute name="body" value="/shop/layout/checkout/address.jsp"/>
+        <put-attribute name="closeBody" value="/shop/layout/catalog/closeBody.jsp"/>
+        <put-attribute name="closeWrapper" value="/shop/layout/catalog/closeWrapper.jsp"/>       
+    </definition>
+    <definition name="checkout.ajaxwiz.step2" template="/shop/layout/catalog/default.jsp">
+    	<put-attribute name="openWrapperStr" value="/shop/layout/catalog/openWrapper.jsp" type="string"/>
+        <put-attribute name="openWrapper" value="/shop/layout/catalog/openWrapper.jsp"/>
+        <put-attribute name="header" value="/shop/layout/catalog/header.jsp"/>
+        <put-attribute name="openBody" value="/shop/layout/catalog/openBody.jsp" />
+        <put-attribute name="body" value="/shop/layout/checkout/confirm.jsp"/>
+        <put-attribute name="closeBody" value="/shop/layout/catalog/closeBody.jsp"/>
+        <put-attribute name="closeWrapper" value="/shop/layout/catalog/closeWrapper.jsp"/>
+        <put-attribute name="footer" value="/shop/layout/catalog/footer.jsp"/>
+    </definition>
+    <definition name="checkout.ajaxwiz.step3" template="/shop/layout/catalog/default.jsp">
+    	<put-attribute name="openWrapperStr" value="/shop/layout/catalog/openWrapper.jsp" type="string"/>
+        <put-attribute name="openWrapper" value="/shop/layout/catalog/openWrapper.jsp"/>
+        <put-attribute name="header" value="/shop/layout/catalog/header.jsp"/>
+        <put-attribute name="openBody" value="/shop/layout/catalog/openBody.jsp" />
+        <put-attribute name="body" value="/shop/layout/checkout/payment.jsp"/>
+        <put-attribute name="closeBody" value="/shop/layout/catalog/closeBody.jsp"/>
+        <put-attribute name="closeWrapper" value="/shop/layout/catalog/closeWrapper.jsp"/>
+        <put-attribute name="footer" value="/shop/layout/catalog/footer.jsp"/>
+    </definition>
+    <definition name="checkout.ajaxwiz.step4" template="/shop/layout/catalog/default.jsp">
+    	<put-attribute name="openWrapperStr" value="/shop/layout/catalog/openWrapper.jsp" type="string"/>
+        <put-attribute name="openWrapper" value="/shop/layout/catalog/openWrapper.jsp"/>
+        <put-attribute name="header" value="/shop/layout/catalog/header.jsp"/>
+        <put-attribute name="openBody" value="/shop/layout/catalog/openBody.jsp" />
+        <put-attribute name="body" value="/shop/layout/checkout/summary.jsp"/>
+        <put-attribute name="closeBody" value="/shop/layout/catalog/closeBody.jsp"/>
+        <put-attribute name="closeWrapper" value="/shop/layout/catalog/closeWrapper.jsp"/>
+        <put-attribute name="footer" value="/shop/layout/catalog/footer.jsp"/>
+    </definition>
+</tiles-definitions>

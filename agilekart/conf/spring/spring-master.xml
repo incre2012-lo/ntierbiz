@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:p="http://www.springframework.org/schema/p"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:aop="http://www.springframework.org/schema/aop"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xmlns:tx="http://www.springframework.org/schema/tx"
+    xsi:schemaLocation="
+    http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+    http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd
+    http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+    http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
+
+	
+
+    <!-- This will ensure that hibernate or jpa exceptions are automatically translated into
+         Spring's generic DataAccessException hierarchy -->
+    <bean class="org.springframework.orm.hibernate4.HibernateExceptionTranslator"/>
+
+    <bean id="dataSource"
+        class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="oracle.jdbc.driver.OracleDriver" />
+        <property name="url" value="jdbc:oracle:thin:@localhost:1521:XE" />
+        <property name="username" value="zoomshop" />
+        <property name="password" value="intershop" />
+    </bean>
+  
+  
+   <!-- Hibernate SessionFactory -->
+    <bean id="sessionFactory" class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+    	 <property name="dataSource">
+        	<ref local="dataSource"/>
+        </property>
+       
+        <property name="annotatedClasses">
+            <list>             
+                <value>com.xl.profile.core.entity.Customer</value>
+                <value>com.xl.profile.core.entity.PriceBid</value>
+                <value>com.xl.order.core.entity.Order</value>
+                <value>com.xl.order.core.entity.OrderProduct</value>
+            </list>
+        </property>
+
+        <property name="hibernateProperties">
+            <value>
+                hibernate.dialect=org.hibernate.dialect.OracleDialect
+                hibernate.jdbc.batch_size=5
+                hibernate.show_sql=true
+                hibernate.hbm2ddl.auto=update
+            </value>
+        </property>
+    </bean>
+	<bean id="mailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
+		<property name="host" value="smtp.gmail.com" />
+		<property name="port" value="587" />
+		<property name="username" value="xlsystemindia" />
+		<property name="password" value="onshopp.com" />
+	 
+		<property name="javaMailProperties">
+		   <props>
+	       	      <prop key="mail.smtp.auth">true</prop>
+	       	      <prop key="mail.smtp.starttls.enable">true</prop>
+	       	   </props>
+		</property>
+	</bean>
+	 
+	<bean id="mailProvider" class="com.xl.system.core.email.MailProvider">
+		<property name="mailSender" ref="mailSender" />
+	</bean>
+	
+
+    <!-- Read in DAOs from the hibernate package -->
+    <context:component-scan base-package="com.xl.profile.core"/>
+	 <!-- Read in DAOs from the hibernate package -->
+    <context:component-scan base-package="com.xl.order.core"/>
+     <!-- Read in DAOs from the hibernate package -->
+    <context:component-scan base-package="com.xl.system.core"/>
+
+    <!-- Transaction Config -->
+    <bean id="transactionManager"
+          class="org.springframework.orm.hibernate4.HibernateTransactionManager"
+          p:sessionFactory-ref="sessionFactory"/>
+
+    <tx:annotation-driven transaction-manager="transactionManager"/>
+
+</beans>

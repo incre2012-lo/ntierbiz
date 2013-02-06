@@ -1,0 +1,101 @@
+	-------------------------------------------------------------------------------------------------------------------------
+	@XmlElement(name = "productvariation")
+	protected List<ProductVariationAssign> productVariationsAssign;
+	
+	public List<ProductVariationAssign> getProductVariationsAssign() {
+		return productVariationsAssign;
+	}
+
+	public void setProductVariationsAssign(
+			List<ProductVariationAssign> productVariationsAssign) {
+		this.productVariationsAssign = productVariationsAssign;
+	}
+	
+	public void addProductVariationAssign(ProductVariationAssign productvariation) {
+		this.productVariationsAssign.add(productvariation);
+	}
+
+	public ProductVariationAssign createProductVariationAssign(String productid,String variationid){	
+		ProductVariationAssign productvariation=new ProductVariationAssign();
+		productvariation.setProductID(productid);
+		productvariation.setVariationID(variationid);
+		return productvariation;
+	}
+	
+	public void assignProductVariation(String productid,String variationid){	
+		ProductVariationAssign productvariation =createProductVariationAssign(productid,variationid);
+		getProductVariationsAssign().add(productvariation);		
+	}
+	
+	public boolean isProductVariationAssign(String productid,String variationid) {
+		EqualPredicate prdEqlPredicate = new EqualPredicate(productid);
+		EqualPredicate catEqlPredicate = new EqualPredicate(variationid);
+		BeanPredicate prdbeanPredicate = new BeanPredicate("productID", prdEqlPredicate);
+		BeanPredicate catbeanPredicate = new BeanPredicate("variationID", catEqlPredicate);
+		return CollectionUtils.exists(getProductVariationsAssign(),PredicateUtils.andPredicate(prdbeanPredicate, catbeanPredicate));
+	}
+	
+	public ProductVariationAssign findProductVariationAssign(String productid,String variationid) {
+		EqualPredicate prdEqlPredicate = new EqualPredicate(productid);
+		EqualPredicate catEqlPredicate = new EqualPredicate(variationid);
+		BeanPredicate prdbeanPredicate = new BeanPredicate("productID", prdEqlPredicate);
+		BeanPredicate catbeanPredicate = new BeanPredicate("variationID", catEqlPredicate);
+		return (ProductVariationAssign) CollectionUtils.find(getProductVariationsAssign(),PredicateUtils.andPredicate(prdbeanPredicate, catbeanPredicate));
+	}
+
+	---------------------------------------------------------------------------------------------------------------------------------------------
+	private VariationMgr variationmgr;
+	variationmgr=VariationMgrFactory.getInstance().getMgr();
+	
+	public void assignProductToVariation(Product product,Variation variation){
+		relmgr.assignProductVariation(product.getProductID(), variation.getVariationID());
+		RelationMgrFactory.getInstance().persist();
+		
+	}
+	
+	public List<Variation> getProductVariations(String productID) {
+		List<Variation> list=new ArrayList<Variation>();
+		if(relmgr==null){
+			return list;				
+		}
+		EqualPredicate nameEqlPredicate = new EqualPredicate(productID);
+		BeanPredicate beanPredicate = new BeanPredicate("productID", nameEqlPredicate);		
+		List <ProductVariationAssign> productVariationAssign=(List<ProductVariationAssign>) CollectionUtils.select(relmgr.getProductVariationsAssign(), beanPredicate);		
+		  Transformer transformer = new Transformer( ) {
+			  public Object transform(Object object) {
+				  ProductVariationAssign  assign = (ProductVariationAssign) object;
+				  return variationmgr.findVariation(assign.getVariationID());
+              }
+		  };
+		  CollectionUtils.collect(productVariationAssign, transformer,list);
+		return list;
+	}
+	---------------------------------------------------------------------------------------------------------------------------------------------
+		private ProductMgr productmgr;
+		productmgr=ProductMgrFactory.getInstance().getMgr();
+		
+	public List<Product> getVariationProducts(String variationID) {
+		List<Product> list=new ArrayList<Product>();
+		if(relmgr==null){
+			return list;				
+		}		
+		EqualPredicate nameEqlPredicate = new EqualPredicate(variationID);
+		BeanPredicate beanPredicate = new BeanPredicate("variationID", nameEqlPredicate);		
+		List <ProductVariationAssign> productVariationAssign=(List<ProductVariationAssign>) CollectionUtils.select(relmgr.getProductVariationsAssign(), beanPredicate);		
+		  Transformer transformer = new Transformer( ) {
+			  public Object transform(Object object) {
+				  ProductVariationAssign  assign = (ProductVariationAssign) object;
+				  return productmgr.findProduct(assign.getProductID());
+              }
+		  };
+		  CollectionUtils.collect(productVariationAssign, transformer,list);
+		return list;
+	}
+	
+	public void assignVariationToProduct(Variation variation,Product product){
+		relmgr.assignProductVariation(product.getProductID(), variation.getVariationID());
+		RelationMgrFactory.getInstance().persist();
+	}
+	----------------------------------------------------------------------------------------------------------------
+	   <productvariation  variationID="testcat1"  productID="test3"/>
+   ----------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<relations>
+    <productcategory categoryID="camping-tiffins" productID="camping-tiffin"/>
+    <productcategory categoryID="camping-tiffins" productID="camping-picnic-tiffin"/>
+    <productcategory categoryID="camping-tiffins" productID="camping2-picnic-tiffin"/>
+    <productcategory categoryID="bar-accessories" productID="wine-bucket"/>
+    <productcategory categoryID="bar-accessories" productID="wine-bucket-2"/>
+    <productcategory categoryID="bar-accessories" productID="semi-deluxe-cocktail-shaker"/>
+    <productcategory categoryID="bar-accessories" productID="tong"/>
+    <productcategory categoryID="bar-accessories" productID="ash-tray"/>
+    <productcategory categoryID="bar-accessories" productID="S73540"/>
+   	<productlabel labelID="recent" productID="camping-tiffin"/>
+    <productlabel labelID="recent" productID="camping-picnic-tiffin"/>
+    <productlabel labelID="recent" productID="camping2-picnic-tiffin"/>
+    <productlabel labelID="recent" productID="wine-bucket" />
+    <productlabel labelID="feature" productID="wine-bucket-2"/>
+    <productlabel labelID="feature" productID="semi-deluxe-cocktail-shaker"/>
+    <productlabel labelID="feature" productID="tong"/>
+    <productlabel labelID="feature" productID="ash-tray"/>
+    <productlabel labelID="dod" productID="S73540"/>
+    <productprice  priceID="dod"  productID="test3"/>
+    <productpermotion  permotionID="testcat1"  productID="test3"/>
+    <productcontent  contentID="ideal"  productID="S73540"/>
+    <productattribute  attributeID="color"  productID="S73540">
+    </productattribute>
+    <productattribute  attributeID="design"  productID="S73540">
+   	</productattribute>	 
+    <productattribute  attributeID="material"  productID="S73540">
+    	<value>Stainless Steel</value>
+   	</productattribute>	
+    <productattribute  attributeID="capacity"  productID="S73540">
+   	</productattribute>	
+    <productattribute  attributeID="content"  productID="S73540">
+   		 <value>16PCS.</value>
+   	</productattribute>	
+</relations>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="onshopp">
+        <wb-resource deploy-path="/" source-path="/WebContent"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/resource/struts"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/core-src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/x-src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/attribute"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/relation"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/product"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/price"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/permotion"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/label"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/content"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/category"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/resource/tld"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/spring"/>
+        <property name="java-output-path" value="/onshopp/build/classes"/>
+        <property name="context-root" value="onshopp"/>
+    </wb-module>
+</project-modules>

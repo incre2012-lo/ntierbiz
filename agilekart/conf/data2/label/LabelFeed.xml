@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<labels>
+	<label labelID="fresh" title="Fresh Arrivals" type="landing" />
+	<label labelID="recent" title="Recently Sold" type="landing" />
+	<label labelID="feature" title="Featured Products" type="landing" />
+	<label labelID="dod" title="Deals of Day" type="landing" />
+	<label labelID="clearance" title="Clearance Sale" type="landing" />
+</labels>

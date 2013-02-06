@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    <package name="struts-catalog" extends="struts-default,tiles-default" namespace="/">
+    	<interceptors> 
+			<interceptor name="cookieprovider" class="com.xl.cm.core.cookie.CookieProviderInterceptor"></interceptor>
+			<interceptor-stack name="defaultAndCookiesProvider">
+				<interceptor-ref name="cookie"/> 
+				<interceptor-ref name="defaultStack" />
+				<interceptor-ref name="cookieprovider" />
+			</interceptor-stack>
+		</interceptors>
+		<default-interceptor-ref name="defaultAndCookiesProvider"/>
+    
+    
+		<default-action-ref name="index" />
+		<action name="index" class="com.xl.cm.catalog.action.BrowseAction" method="landing">			
+             <result name="success" type="tiles">shop.index</result>
+		</action>				
+		<action name="/*_buy" class="com.xl.cm.catalog.action.BrowseAction" method="browse">	
+		 	 <param name="parentCategoryID">root</param>
+		 	 <param name="categoryID">{1}</param>				
+             <result name="success" type="tiles">shop.browse</result>
+		</action>
+		<action name="/*/*_buy" class="com.xl.cm.catalog.action.BrowseAction" method="browse">	
+		 	 <param name="parentCategoryID">{1}</param>
+		 	 <param name="categoryID">{2}</param>						
+             <result name="success" type="tiles">shop.browse</result>
+		</action>
+		<action name="/*/*/*_buy" class="com.xl.cm.catalog.action.BrowseAction" method="details">	
+		 	 <param name="parentCategoryID">{1}</param>
+		 	 <param name="categoryID">{2}</param>
+		 	 <param name="productID">{3}</param>						
+             <result name="success" type="tiles">shop.details</result>
+		</action>
+		<action name="/*" class="com.xl.cm.catalog.action.BrowseAction" method="landing">			
+             <result name="success" type="tiles">shop.index</result>
+		</action>
+    </package>
+     <package name="struts-cart" extends="struts-default,json-default" namespace="/cart">
+     	<interceptors> 
+			<interceptor name="cookieprovider" class="com.xl.cm.core.cookie.CookieProviderInterceptor"></interceptor>
+			<interceptor-stack name="defaultAndCookiesProvider">
+				<interceptor-ref name="cookie"/> 
+				<interceptor-ref name="defaultStack" />
+				<interceptor-ref name="cookieprovider" />
+			</interceptor-stack>
+		</interceptors>
+		<default-interceptor-ref name="defaultAndCookiesProvider"/>
+		<action name="/ajax/*/*_*" class="com.xl.cm.catalog.action.CartAction" method="{3}">
+		 	 <param name="productID">{1}</param>
+		 	 <param name="quantity">{2}</param>						
+             <result name="success">/shop/layout/checkout/cartdetails.jsp</result>
+              
+		</action>
+		<action name="ajax/show" class="com.xl.cm.catalog.action.CartAction" method="show">	
+             <result name="success">/shop/layout/checkout/cartdetails.jsp</result>              
+		</action>
+		<action name="ajax/update" class="com.xl.cm.catalog.action.CartAction" method="update">				
+            <result name="success">/shop/layout/checkout/cartdetails.jsp</result>              
+		</action>
+		<action name="ajax/json" class="com.xl.cm.catalog.action.CartAction" method="json">				
+            <result name="success" type="json"></result>              
+		</action>
+	 </package>	
+	  <package name="struts-user" extends="struts-default" namespace="/user">
+	  	<action name="registration" class="com.xl.cm.catalog.action.UserAction" method="register">				
+            <result name="input">/shop/layout/user/registration.jsp</result>   
+            <result name="success">/shop/layout/user/close.jsp</result> 
+            <interceptor-ref name="paramsPrepareParamsStack" />          
+		</action>
+		<action name="reginput" class="com.xl.cm.catalog.action.UserAction" method="input">				
+            <result name="input">/shop/layout/user/registration.jsp</result>   
+            <result name="success">/shop/layout/user/close.jsp</result> 
+            <interceptor-ref name="paramsPrepareParamsStack" />          
+		</action>
+		 <action name="logininput" class="com.xl.cm.catalog.action.LoginAction" method="input">				
+            <result name="input">/shop/layout/user/login.jsp</result>  
+		</action>
+		<action name="login" class="com.xl.cm.catalog.action.LoginAction" method="login">				
+            <result name="input">/shop/layout/user/login.jsp</result>   
+            <result name="success">/shop/layout/user/close.jsp</result> 
+            <interceptor-ref name="paramsPrepareParamsStack" />          
+		</action>
+		<action name="logincheckout" class="com.xl.cm.catalog.action.LoginAction" method="login">				
+            <result name="input">/shop/layout/checkout/cologin.jsp</result>   
+            <result name="success" type="redirect">/checkout/show</result> 
+            <interceptor-ref name="paramsPrepareParamsStack" />          
+		</action>
+		<action name="regcheckout" class="com.xl.cm.catalog.action.UserAction" method="register">				
+            <result name="input">/shop/layout/checkout/cologin.jsp</result>   
+            <result name="success" type="redirect">/checkout/show</result> 
+            <interceptor-ref name="paramsPrepareParamsStack" />          
+		</action>
+		 <action name="logout" class="com.xl.cm.catalog.action.LoginAction" method="logout">				
+            <result name="success">/shop/layout/user/close.jsp</result>  
+		</action>
+	  </package>
+	  <package name="struts-checkout" extends="struts-default,json-default,tiles-default" namespace="/checkout">
+     	<interceptors> 
+			<interceptor name="cookieprovider" class="com.xl.cm.core.cookie.CookieProviderInterceptor"></interceptor>		
+			<!-- Sample custom validation stack -->
+            <interceptor-stack name="defaultAndCookiesProvider">
+                <interceptor-ref name="cookie"/> 
+                <interceptor-ref name="paramsPrepareParamsStack"/>           
+                <interceptor-ref name="cookieprovider" />
+            </interceptor-stack>
+			
+		</interceptors>
+		<default-interceptor-ref name="defaultAndCookiesProvider"/>	
+		<action name="show" class="com.xl.cm.catalog.action.CheckOutAction" method="show">
+			   <result name="input" type="tiles">checkout.ajaxwiz.step1.a</result>   
+               <result name="success" type="tiles">checkout.ajaxwiz.step1.c</result>               
+               <interceptor-ref name="defaultAndCookiesProvider"/> 
+		</action>		
+		<action name="register" class="com.xl.cm.catalog.action.CheckOutAction" method="register">
+               <result name="success" type="tiles">checkout.ajaxwiz.step1.b</result>               
+               <interceptor-ref name="defaultAndCookiesProvider"/> 
+		</action>
+		<action name="address" class="com.xl.cm.catalog.action.CheckOutAction" method="address">
+			   <result name="input" type="tiles">checkout.ajaxwiz.step1.b</result>				 
+               <result name="success" type="tiles">checkout.ajaxwiz.step1.c</result>               
+               <interceptor-ref name="defaultAndCookiesProvider"/> 
+		</action>
+		<action name="confirm" class="com.xl.cm.catalog.action.CheckOutAction" method="confirm">
+			   <result name="input" type="tiles">checkout.ajaxwiz.step1.c</result>				 
+               <result name="success" type="tiles">checkout.ajaxwiz.step2</result>               
+               <interceptor-ref name="defaultAndCookiesProvider"/> 
+		</action>
+		<action name="payment" class="com.xl.cm.catalog.action.CheckOutAction" method="payment">
+			   <result name="input" type="tiles">checkout.ajaxwiz.step3</result> 
+               <result name="success" type="tiles">checkout.ajaxwiz.step4</result>               
+               <interceptor-ref name="defaultAndCookiesProvider"/> 
+		</action>				
+	 </package>
+	 <package name="struts-content" extends="struts-default,json-default,tiles-default" namespace="/content">
+	 		<interceptors> 	
+	 		<interceptor name="cookieprovider" class="com.xl.cm.core.cookie.CookieProviderInterceptor"></interceptor>
+		 		<!-- Sample custom validation stack -->
+	            <interceptor-stack name="defaultAndCookiesProvider">
+	                <interceptor-ref name="cookie"/> 
+	                <interceptor-ref name="paramsPrepareParamsStack"/>           
+	                <interceptor-ref name="cookieprovider" />
+	            </interceptor-stack>
+            </interceptors>
+	 	<action name="/*_show" class="com.xl.cm.catalog.action.ContentAction" method="details">	
+		 	 <param name="contentID">{1}</param>
+		 	  <result name="input">/shop/layout/content/default.jsp</result>
+              <result name="success">/shop/layout/content/details.jsp</result>
+             <interceptor-ref name="defaultAndCookiesProvider"/> 
+		</action>
+	 </package>
+	  <package name="struts-order" extends="struts-default,json-default,tiles-default" namespace="/order">
+	 		<interceptors> 	
+	 		<interceptor name="cookieprovider" class="com.xl.cm.core.cookie.CookieProviderInterceptor"></interceptor>
+		 		<!-- Sample custom validation stack -->
+	            <interceptor-stack name="defaultAndCookiesProvider">
+	                <interceptor-ref name="cookie"/> 
+	                <interceptor-ref name="paramsPrepareParamsStack"/>           
+	                <interceptor-ref name="cookieprovider" />
+	            </interceptor-stack>
+            </interceptors>
+	 	<action name="status" class="com.xl.cm.catalog.action.OrderAction" method="status">		 	 
+		 	  <result name="input">/shop/layout/order/inputstatus.jsp</result>
+              <result name="success">/shop/layout/order/status.jsp</result>
+             <interceptor-ref name="defaultAndCookiesProvider"/> 
+		</action>
+	 </package>	
+	 <package name="struts-service" extends="struts-default,json-default,tiles-default" namespace="/bizsrv">
+	 		<interceptors> 	
+	 		<interceptor name="cookieprovider" class="com.xl.cm.core.cookie.CookieProviderInterceptor"></interceptor>
+		 		<!-- Sample custom validation stack -->
+	            <interceptor-stack name="defaultAndCookiesProvider">
+	                <interceptor-ref name="cookie"/> 
+	                <interceptor-ref name="paramsPrepareParamsStack"/>           
+	                <interceptor-ref name="cookieprovider" />
+	            </interceptor-stack>
+            </interceptors>
+	 	
+		<action name="codinput" class="com.xl.cm.catalog.action.BizServiceAction" method="input">				
+            <result name="input">/shop/layout/service/codpincode.jsp</result>  
+            <interceptor-ref name="paramsPrepareParamsStack"/>
+		</action>
+		<action name="cod" class="com.xl.cm.catalog.action.BizServiceAction" method="cod">				
+            <result name="input">/shop/layout/service/codpincode.jsp</result>   
+            <result name="success">/shop/layout/user/close.jsp</result> 
+            <interceptor-ref name="paramsPrepareParamsStack" />          
+		</action>
+		
+		<action name="homesellinput" class="com.xl.cm.catalog.action.BizServiceAction" method="input">				
+            <result name="input">/shop/layout/service/homesellpincode.jsp</result>  
+            <interceptor-ref name="paramsPrepareParamsStack"/>
+		</action>
+		<action name="homesell" class="com.xl.cm.catalog.action.BizServiceAction" method="homesell">				
+            <result name="input">/shop/layout/service/homesellpincode.jsp</result>   
+            <result name="success">/shop/layout/user/close.jsp</result> 
+            <interceptor-ref name="paramsPrepareParamsStack" />          
+		</action>
+		<action name="bidpriceinput" class="com.xl.cm.catalog.action.BizServiceAction" method="bidpriceInput">				
+            <result name="input">/shop/layout/service/bidprice.jsp</result>   
+            <result name="error">/shop/layout/user/close.jsp</result> 
+            <interceptor-ref name="paramsPrepareParamsStack" />          
+		</action>
+		<action name="bidprice" class="com.xl.cm.catalog.action.BizServiceAction" method="bidprice">				
+            <result name="input">/shop/layout/service/bidprice.jsp</result>   
+            <result name="success">/shop/layout/user/close.jsp</result> 
+            <interceptor-ref name="paramsPrepareParamsStack" />          
+		</action>
+	 </package>	
+</struts>

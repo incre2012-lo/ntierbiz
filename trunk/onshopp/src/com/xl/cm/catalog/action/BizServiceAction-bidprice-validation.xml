@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE validators PUBLIC 
+        "-//OpenSymphony Group//XWork Validator 1.0.2//EN" 
+        "http://www.opensymphony.com/xwork/xwork-validator-1.0.2.dtd">
+<validators>
+	<validator type="regex">
+		<param name="fieldname">bidprice</param>
+		<param name="expression"><![CDATA[\d+]]></param>
+		<message>Price must be numeric only.</message>
+	</validator>
+	<validator type="requiredstring">
+		<param name="fieldname">comments</param>
+		<message>Comments is required.</message>
+	</validator>
+</validators>

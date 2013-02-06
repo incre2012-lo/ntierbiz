@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<categories>
+    <category categorySortOrder="1" categoryStatus="true" parentCategoryID="root" categoryID="kitchenware-accessories">
+        <desc>Our range of kitchenware casseroles can be sourced with or without lid. Manufactured using superior quality stainless steel, we offer kitchenware at most competitive prices.</desc>
+        <title>Kitchen Acessories</title>
+    </category>
+    <category categorySortOrder="1" categoryStatus="true" parentCategoryID="root" categoryID="home-decor">
+        <desc>Our range of kitchenware casseroles can be sourced with or without lid. Manufactured using superior quality stainless steel, we offer kitchenware at most competitive prices.</desc>
+        <title>Home Decor</title>
+    </category>
+    <category categorySortOrder="1" categoryStatus="true" parentCategoryID="root" categoryID="home-ware">
+        <desc>Our range of kitchenware casseroles can be sourced with or without lid. Manufactured using superior quality stainless steel, we offer kitchenware at most competitive prices.</desc>
+        <title>Home Ware</title>
+    </category>
+    <category categorySortOrder="2" categoryStatus="true" parentCategoryID="home-decor" categoryID="bar-accessories">
+        <desc>Bar Accessories such as ice bucket and tongs holder, cocktail shaker, bar tool set, bear mug and stainless steel ice buckets. These accessories are widely used in bars, lounges and restaurants.</desc>
+        <title>Bar Accessories</title>
+    </category>
+    <category categorySortOrder="0" categoryStatus="true" parentCategoryID="kitchenware-accessories" categoryID="glass-set">
+        <title>Glass Set</title>
+    </category>
+    <category categorySortOrder="0" categoryStatus="true" parentCategoryID="kitchenware-accessories" categoryID="glass-individual-pc">
+        <title>Glass individual pc</title>
+    </category>
+    <category categorySortOrder="0" categoryStatus="true" parentCategoryID="home-ware" categoryID="double-wall-coffee-mug-set">
+        <title>Double Wall Coffee Mug Set</title>
+    </category>
+    <category categorySortOrder="0" categoryStatus="true" parentCategoryID="home-ware" categoryID="double-wall-coffee-mug">
+        <title>Double Wall Coffee Mug</title>
+    </category>
+    <category categorySortOrder="0" categoryStatus="true" parentCategoryID="kitchenware-accessories" categoryID="salad-set">
+        <title>Salad Set</title>
+    </category>
+    <category categorySortOrder="0" categoryStatus="true" parentCategoryID="kitchenware-accessories" categoryID="dry-fruit-serving-set">
+        <title>Dry Fruit Serving Set</title>
+    </category>
+    <category categorySortOrder="0" categoryStatus="true" parentCategoryID="kitchenware-accessories" categoryID="boiled-egg-serving-set">
+        <title>Boiled Egg Serving Set</title>
+    </category>
+    <category categorySortOrder="0" categoryStatus="true" parentCategoryID="kitchenware-accessories" categoryID="salt-pepper-set">
+        <title>Salt Pepper Set</title>
+    </category>
+    <category categorySortOrder="0" categoryStatus="true" parentCategoryID="kitchenware-accessories" categoryID="melamine-dinner-set">
+        <title>MELAMINE DINNER SET</title>
+    </category>
+    <category categorySortOrder="0" categoryStatus="true" parentCategoryID="home-ware" categoryID="storage-set">
+        <title>Storage Set</title>
+    </category>
+</categories>

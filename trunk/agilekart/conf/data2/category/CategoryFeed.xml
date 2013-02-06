@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<categories>
+	<category categorySortOrder="1" categoryStatus="true" categoryID="kitchenware-accessories" parentCategoryID="root">
+        <title>Kitchen Acessories</title>
+        <desc>Our range of kitchenware casseroles can be sourced with or without lid. Manufactured using superior quality stainless steel, we offer kitchenware at most competitive prices.</desc>
+    </category>
+    <category categorySortOrder="2" categoryStatus="false" categoryID="bar-accessories" parentCategoryID="root">
+       	<title>Bar Accessories</title>
+        <desc>Bar Accessories such as ice bucket and tongs holder, cocktail shaker, bar tool set, bear mug and stainless steel ice buckets. These accessories are widely used in bars, lounges and restaurants.</desc>
+    </category>
+</categories>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<attributes>
+	<attribute attributeID="color">
+		<displayName>Color</displayName>
+		<defaultValue>N.A.</defaultValue>
+	</attribute>
+	<attribute attributeID="design">
+		<displayName>Design</displayName>
+		<defaultValue>N.A.</defaultValue>
+	</attribute>
+	<attribute attributeID="material">
+		<displayName>Material</displayName>
+		<defaultValue>N.A.</defaultValue>
+	</attribute>
+	<attribute attributeID="capacity">
+		<displayName>Capacity</displayName>
+		<defaultValue>N.A.</defaultValue>
+	</attribute>
+	<attribute attributeID="content">
+		<displayName>Content</displayName>
+		<defaultValue>N.A.</defaultValue>
+	</attribute>
+</attributes>

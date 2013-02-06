@@ -1,0 +1,1956 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<relations>
+	<productcategory categoryID="test" productID="test" />
+	<productcategory categoryID="bar-accessories"
+		productID="S7354010" />
+	<productcategory categoryID="bar-accessories"
+		productID="S7354114" />
+	<productcategory categoryID="glass-set" productID="S7304912" />
+	<productcategory categoryID="glass-set" productID="S73050-5" />
+	<productcategory categoryID="glass-individual-pc"
+		productID="I7304910" />
+	<productcategory categoryID="glass-individual-pc"
+		productID="I730509" />
+	<productcategory categoryID="double-wall-coffee-mug-set"
+		productID="S73051-8" />
+	<productcategory categoryID="double-wall-coffee-mug"
+		productID="I730511" />
+	<productcategory categoryID="salad-set" productID="ST 252721-1" />
+	<productcategory categoryID="dry-fruit-serving-set"
+		productID="S7354218" />
+	<productcategory categoryID="boiled-egg-serving-set"
+		productID="7170713" />
+	<productcategory categoryID="salt-pepper-set"
+		productID="71726-9" />
+	<productcategory categoryID="melamine-dinner-set"
+		productID="7172617" />
+	<productcategory categoryID="melamine-dinner-set"
+		productID="71726-3" />
+	<productcategory categoryID="melamine-dinner-set"
+		productID="71726-6" />
+	<productcategory categoryID="melamine-dinner-set"
+		productID="71726-15" />
+	<productcategory categoryID="melamine-dinner-set"
+		productID="71726-17" />
+	<productcategory categoryID="melamine-dinner-set"
+		productID="717262" />
+	<productcategory categoryID="storage-set" productID="90406697141" />
+	<productcategory categoryID="storage-set" productID="9040669769-14" />
+	<productcategory categoryID="storage-set" productID="9040669817-8" />
+	<productcategory categoryID="storage-set" productID="904066982215" />
+	<productcategory categoryID="storage-set" productID="90406694079" />
+	<productcategory categoryID="storage-set" productID="9040669622-4" />
+	<productcategory categoryID="storage-set" productID="904063771418" />
+	<productcategory categoryID="storage-set" productID="90406377694" />
+	<productcategory categoryID="storage-set" productID="9040637817-10" />
+	<productcategory categoryID="storage-set" productID="9040637822-9" />
+	<productcategory categoryID="storage-set" productID="90406374074" />
+	<productcategory categoryID="storage-set" productID="9040637622-11" />
+	<productcategory categoryID="storage-set" productID="904057271415" />
+	<productcategory categoryID="storage-set" productID="9040572769-3" />
+	<productcategory categoryID="storage-set" productID="9040572817-17" />
+	<productcategory categoryID="storage-set" productID="904057282218" />
+	<productcategory categoryID="storage-set" productID="904057240717" />
+	<productcategory categoryID="storage-set" productID="9040572622-7" />
+	<productcategory categoryID="storage-set" productID="1572693771417" />
+	<productcategory categoryID="storage-set" productID="15726937769-16" />
+	<productcategory categoryID="storage-set" productID="15726937817-13" />
+	<productcategory categoryID="storage-set" productID="15726937822-16" />
+	<productcategory categoryID="storage-set" productID="15726937407-10" />
+	<productcategory categoryID="storage-set" productID="1572693762215" />
+	<productcategory categoryID="storage-set" productID="18726937714-12" />
+	<productcategory categoryID="storage-set" productID="1872693776911" />
+	<productcategory categoryID="storage-set" productID="18726937817-7" />
+	<productcategory categoryID="storage-set" productID="18726937822-2" />
+	<productcategory categoryID="storage-set" productID="187269374078" />
+	<productcategory categoryID="storage-set" productID="18726937622-15" />
+	<productcategory categoryID="storage-set" productID="127269377141" />
+	<productcategory categoryID="storage-set" productID="127269377146" />
+	<productcategory categoryID="storage-set" productID="12726937714-4" />
+	<productcategory categoryID="storage-set" productID="12726937714-13" />
+	<productcategory categoryID="storage-set" productID="1272693771410" />
+	<productcategory categoryID="storage-set" productID="1272693771416" />
+	<productcontent contentID="test" productID="test" />
+	<productcontent contentID="ideal" productID="S7354010" />
+	<productcontent contentID="ideal" productID="S7354114" />
+	<productcontent contentID="ideal" productID="S7304912" />
+	<productcontent contentID="ideal" productID="S73050-5" />
+	<productcontent contentID="ideal" productID="I7304910" />
+	<productcontent contentID="ideal" productID="I730509" />
+	<productcontent contentID="ideal" productID="S73051-8" />
+	<productcontent contentID="ideal" productID="I730511" />
+	<productcontent contentID="ideal" productID="ST 252721-1" />
+	<productcontent contentID="ideal" productID="S7354218" />
+	<productcontent contentID="ideal" productID="7170713" />
+	<productcontent contentID="ideal" productID="71726-9" />
+	<productcontent contentID="ideal" productID="7172617" />
+	<productcontent contentID="ideal" productID="71726-3" />
+	<productcontent contentID="ideal" productID="71726-6" />
+	<productcontent contentID="ideal" productID="71726-15" />
+	<productcontent contentID="ideal" productID="71726-17" />
+	<productcontent contentID="ideal" productID="717262" />
+	<productcontent contentID="ideal" productID="90406697141" />
+	<productcontent contentID="ideal" productID="9040669769-14" />
+	<productcontent contentID="ideal" productID="9040669817-8" />
+	<productcontent contentID="ideal" productID="904066982215" />
+	<productcontent contentID="ideal" productID="90406694079" />
+	<productcontent contentID="ideal" productID="9040669622-4" />
+	<productcontent contentID="ideal" productID="904063771418" />
+	<productcontent contentID="ideal" productID="90406377694" />
+	<productcontent contentID="ideal" productID="9040637817-10" />
+	<productcontent contentID="ideal" productID="9040637822-9" />
+	<productcontent contentID="ideal" productID="90406374074" />
+	<productcontent contentID="ideal" productID="9040637622-11" />
+	<productcontent contentID="ideal" productID="904057271415" />
+	<productcontent contentID="ideal" productID="9040572769-3" />
+	<productcontent contentID="ideal" productID="9040572817-17" />
+	<productcontent contentID="ideal" productID="904057282218" />
+	<productcontent contentID="ideal" productID="904057240717" />
+	<productcontent contentID="ideal" productID="9040572622-7" />
+	<productcontent contentID="ideal" productID="1572693771417" />
+	<productcontent contentID="ideal" productID="15726937769-16" />
+	<productcontent contentID="ideal" productID="15726937817-13" />
+	<productcontent contentID="ideal" productID="15726937822-16" />
+	<productcontent contentID="ideal" productID="15726937407-10" />
+	<productcontent contentID="ideal" productID="1572693762215" />
+	<productcontent contentID="ideal" productID="18726937714-12" />
+	<productcontent contentID="ideal" productID="1872693776911" />
+	<productcontent contentID="ideal" productID="18726937817-7" />
+	<productcontent contentID="ideal" productID="18726937822-2" />
+	<productcontent contentID="ideal" productID="187269374078" />
+	<productcontent contentID="ideal" productID="18726937622-15" />
+	<productcontent contentID="ideal" productID="127269377141" />
+	<productcontent contentID="ideal" productID="127269377146" />
+	<productcontent contentID="ideal" productID="12726937714-4" />
+	<productcontent contentID="ideal" productID="12726937714-13" />
+	<productcontent contentID="ideal" productID="1272693771410" />
+	<productcontent contentID="ideal" productID="1272693771416" />
+	<productprice priceID="test" productID="test" />
+	<productattribute attributeID="test" productID="test" />
+	<productattribute attributeID="brand" productID="S7354010">
+		<displayName>BRAND</displayName>
+		<value>IDEAL HOME- COLLEZIONE DI LUSSO</value>
+	</productattribute>
+	<productattribute attributeID="color" productID="S7354010">
+		<displayName>Color</displayName>
+		<value>N.A.</value>
+	</productattribute>
+	<productattribute attributeID="design" productID="S7354010">
+		<displayName>Design</displayName>
+		<value>N.A.</value>
+	</productattribute>
+	<productattribute attributeID="category" productID="S7354010">
+		<displayName>Category</displayName>
+		<value>Bar Accessories</value>
+	</productattribute>
+	<productattribute attributeID="material" productID="S7354010">
+		<displayName>Material</displayName>
+		<value>Stainless Steel</value>
+	</productattribute>
+	<productattribute attributeID="capacity" productID="S7354010">
+		<displayName>CAPACITY</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="splfeature" productID="S7354010">
+		<displayName>Special Feature</displayName>
+		<value>FULL FEATURED BAR ARTICLES</value>
+	</productattribute>
+	<productattribute attributeID="content" productID="S7354010">
+		<displayName>CONTENT</displayName>
+		<value>16PCS</value>
+	</productattribute>
+	<productattribute attributeID="brand" productID="S7354114">
+		<displayName>BRAND</displayName>
+		<value>IDEAL HOME- COLLEZIONE DI LUSSO</value>
+	</productattribute>
+	<productattribute attributeID="color" productID="S7354114">
+		<displayName>Color</displayName>
+		<value>N.A.</value>
+	</productattribute>
+	<productattribute attributeID="design" productID="S7354114">
+		<displayName>Design</displayName>
+		<value>N.A.</value>
+	</productattribute>
+	<productattribute attributeID="category" productID="S7354114">
+		<displayName>Category</displayName>
+		<value>Bar Accessories</value>
+	</productattribute>
+	<productattribute attributeID="material" productID="S7354114">
+		<displayName>Material</displayName>
+		<value>Stainless Steel</value>
+	</productattribute>
+	<productattribute attributeID="capacity" productID="S7354114">
+		<displayName>CAPACITY</displayName>
+		<value>1.5ltrs</value>
+	</productattribute>
+	<productattribute attributeID="splfeature" productID="S7354114">
+		<displayName>Special Feature</displayName>
+		<value>LONG ICE RETENTION TIME</value>
+	</productattribute>
+	<productattribute attributeID="content" productID="S7354114">
+		<displayName>CONTENT</displayName>
+		<value>2pcs</value>
+	</productattribute>
+	<productattribute attributeID="brand" productID="S7304912">
+		<displayName>BRAND</displayName>
+		<value>IDEAL HOME- COLLEZIONE DI LUSSO</value>
+	</productattribute>
+	<productattribute attributeID="color" productID="S7304912">
+		<displayName>Color</displayName>
+		<value>N.A.</value>
+	</productattribute>
+	<productattribute attributeID="design" productID="S7304912">
+		<displayName>Design</displayName>
+		<value>RIB DESIGN</value>
+	</productattribute>
+	<productattribute attributeID="category" productID="S7304912">
+		<displayName>Category</displayName>
+		<value>Glass Set</value>
+	</productattribute>
+	<productattribute attributeID="material" productID="S7304912">
+		<displayName>Material</displayName>
+		<value>Stainless Steel</value>
+	</productattribute>
+	<productattribute attributeID="capacity" productID="S7304912">
+		<displayName>CAPACITY</displayName>
+		<value>300ml</value>
+	</productattribute>
+	<productattribute attributeID="splfeature" productID="S7304912">
+		<displayName>Special Feature</displayName>
+		<value>FANCY DUAL TONE GLASS SET</value>
+	</productattribute>
+	<productattribute attributeID="content" productID="S7304912">
+		<displayName>CONTENT</displayName>
+		<value>4Pcs</value>
+	</productattribute>
+	<productattribute attributeID="brand" productID="S73050-5">
+		<displayName>BRAND</displayName>
+		<value>IDEAL HOME- COLLEZIONE DI LUSSO</value>
+	</productattribute>
+	<productattribute attributeID="color" productID="S73050-5">
+		<displayName>Color</displayName>
+		<value>N.A.</value>
+	</productattribute>
+	<productattribute attributeID="design" productID="S73050-5">
+		<displayName>Design</displayName>
+		<value>V SHAPE</value>
+	</productattribute>
+	<productattribute attributeID="category" productID="S73050-5">
+		<displayName>Category</displayName>
+		<value>Glass Set</value>
+	</productattribute>
+	<productattribute attributeID="material" productID="S73050-5">
+		<displayName>Material</displayName>
+		<value>Stainless Steel</value>
+	</productattribute>
+	<productattribute attributeID="capacity" productID="S73050-5">
+		<displayName>CAPACITY</displayName>
+		<value>300ml</value>
+	</productattribute>
+	<productattribute attributeID="splfeature" productID="S73050-5">
+		<displayName>Special Feature</displayName>
+		<value>FANCY DUAL TONE GLASS SET</value>
+	</productattribute>
+	<productattribute attributeID="content" productID="S73050-5">
+		<displayName>CONTENT</displayName>
+		<value>4Pcs</value>
+	</productattribute>
+	<productattribute attributeID="brand" productID="I7304910">
+		<displayName>BRAND</displayName>
+		<value>IDEAL HOME- COLLEZIONE DI LUSSO</value>
+	</productattribute>
+	<productattribute attributeID="color" productID="I7304910">
+		<displayName>Color</displayName>
+		<value>N.A.</value>
+	</productattribute>
+	<productattribute attributeID="design" productID="I7304910">
+		<displayName>Design</displayName>
+		<value>RIB DESIGN</value>
+	</productattribute>
+	<productattribute attributeID="category" productID="I7304910">
+		<displayName>Category</displayName>
+		<value>Glass individual pc</value>
+	</productattribute>
+	<productattribute attributeID="material" productID="I7304910">
+		<displayName>Material</displayName>
+		<value>Stainless Steel</value>
+	</productattribute>
+	<productattribute attributeID="capacity" productID="I7304910">
+		<displayName>CAPACITY</displayName>
+		<value>300ml</value>
+	</productattribute>
+	<productattribute attributeID="splfeature" productID="I7304910">
+		<displayName>Special Feature</displayName>
+		<value>FANCY DUAL TONE GLASS WITH RIB DESIGN</value>
+	</productattribute>
+	<productattribute attributeID="content" productID="I7304910">
+		<displayName>CONTENT</displayName>
+		<value>1pc</value>
+	</productattribute>
+	<productattribute attributeID="brand" productID="I730509">
+		<displayName>BRAND</displayName>
+		<value>IDEAL HOME- COLLEZIONE DI LUSSO</value>
+	</productattribute>
+	<productattribute attributeID="color" productID="I730509">
+		<displayName>Color</displayName>
+		<value>N.A.</value>
+	</productattribute>
+	<productattribute attributeID="design" productID="I730509">
+		<displayName>Design</displayName>
+		<value>V SHAPE</value>
+	</productattribute>
+	<productattribute attributeID="category" productID="I730509">
+		<displayName>Category</displayName>
+		<value>Glass individual pc</value>
+	</productattribute>
+	<productattribute attributeID="material" productID="I730509">
+		<displayName>Material</displayName>
+		<value>Stainless Steel</value>
+	</productattribute>
+	<productattribute attributeID="capacity" productID="I730509">
+		<displayName>CAPACITY</displayName>
+		<value>300ml</value>
+	</productattribute>
+	<productattribute attributeID="splfeature" productID="I730509">
+		<displayName>Special Feature</displayName>
+		<value>FANCY DUAL TONE GLASS</value>
+	</productattribute>
+	<productattribute attributeID="content" productID="I730509">
+		<displayName>CONTENT</displayName>
+		<value>1pc</value>
+	</productattribute>
+	<productattribute attributeID="brand" productID="S73051-8">
+		<displayName>BRAND</displayName>
+		<value>IDEAL HOME- COLLEZIONE DI LUSSO</value>
+	</productattribute>
+	<productattribute attributeID="color" productID="S73051-8">
+		<displayName>Color</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="design" productID="S73051-8">
+		<displayName>Design</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="category" productID="S73051-8">
+		<displayName>Category</displayName>
+		<value>Double Wall Coffee Mug Set</value>
+	</productattribute>
+	<productattribute attributeID="material" productID="S73051-8">
+		<displayName>Material</displayName>
+		<value>Stainless Steel</value>
+	</productattribute>
+	<productattribute attributeID="capacity" productID="S73051-8">
+		<displayName>CAPACITY</displayName>
+		<value>250ml</value>
+	</productattribute>
+	<productattribute attributeID="splfeature" productID="S73051-8">
+		<displayName>Special Feature</displayName>
+		<value>HOT COFFEE INSIDE COOL MUG OUTSIDE</value>
+	</productattribute>
+	<productattribute attributeID="content" productID="S73051-8">
+		<displayName>CONTENT</displayName>
+		<value>4Pcs</value>
+	</productattribute>
+	<productattribute attributeID="brand" productID="I730511">
+		<displayName>BRAND</displayName>
+		<value>IDEAL HOME- COLLEZIONE DI LUSSO</value>
+	</productattribute>
+	<productattribute attributeID="color" productID="I730511">
+		<displayName>Color</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="design" productID="I730511">
+		<displayName>Design</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="category" productID="I730511">
+		<displayName>Category</displayName>
+		<value>Double Wall Coffee Mug</value>
+	</productattribute>
+	<productattribute attributeID="material" productID="I730511">
+		<displayName>Material</displayName>
+		<value>Stainless Steel</value>
+	</productattribute>
+	<productattribute attributeID="capacity" productID="I730511">
+		<displayName>CAPACITY</displayName>
+		<value>250ml</value>
+	</productattribute>
+	<productattribute attributeID="splfeature" productID="I730511">
+		<displayName>Special Feature</displayName>
+		<value>HOT COFFEE INSIDE COOL MUG OUTSIDE</value>
+	</productattribute>
+	<productattribute attributeID="content" productID="I730511">
+		<displayName>CONTENT</displayName>
+		<value>1pc</value>
+	</productattribute>
+	<productattribute attributeID="brand" productID="ST 252721-1">
+		<displayName>BRAND</displayName>
+		<value>STANFORD</value>
+	</productattribute>
+	<productattribute attributeID="color" productID="ST 252721-1">
+		<displayName>Color</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="design" productID="ST 252721-1">
+		<displayName>Design</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="category" productID="ST 252721-1">
+		<displayName>Category</displayName>
+		<value>Salad Set</value>
+	</productattribute>
+	<productattribute attributeID="material" productID="ST 252721-1">
+		<displayName>Material</displayName>
+		<value>Stainless Steel</value>
+	</productattribute>
+	<productattribute attributeID="capacity" productID="ST 252721-1">
+		<displayName>CAPACITY</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="splfeature" productID="ST 252721-1">
+		<displayName>Special Feature</displayName>
+		<value>FULL FEATURED SALAD MAKING AND SERVING SET</value>
+	</productattribute>
+	<productattribute attributeID="content" productID="ST 252721-1">
+		<displayName>CONTENT</displayName>
+		<value>7pcs</value>
+	</productattribute>
+	<productattribute attributeID="brand" productID="S7354218">
+		<displayName>BRAND</displayName>
+		<value>VEGA</value>
+	</productattribute>
+	<productattribute attributeID="color" productID="S7354218">
+		<displayName>Color</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="design" productID="S7354218">
+		<displayName>Design</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="category" productID="S7354218">
+		<displayName>Category</displayName>
+		<value>Dry Fruit Serving Set</value>
+	</productattribute>
+	<productattribute attributeID="material" productID="S7354218">
+		<displayName>Material</displayName>
+		<value>Stainless Steel</value>
+	</productattribute>
+	<productattribute attributeID="capacity" productID="S7354218">
+		<displayName>CAPACITY</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="splfeature" productID="S7354218">
+		<displayName>Special Feature</displayName>
+		<value>DRY FRUIT SERVING SET WITH TRAY AND LID FOR THE BOWLS</value>
+	</productattribute>
+	<productattribute attributeID="content" productID="S7354218">
+		<displayName>CONTENT</displayName>
+		<value>9pcs</value>
+	</productattribute>
+	<productattribute attributeID="brand" productID="7170713">
+		<displayName>BRAND</displayName>
+		<value></value>
+	</productattribute>
+	<productattribute attributeID="color" productID="7170713">
+		<displayName>Color</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="design" productID="7170713">
+		<displayName>Design</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="category" productID="7170713">
+		<displayName>Category</displayName>
+		<value>Boiled Egg Serving Set</value>
+	</productattribute>
+	<productattribute attributeID="material" productID="7170713">
+		<displayName>Material</displayName>
+		<value>Stainless Steel</value>
+	</productattribute>
+	<productattribute attributeID="capacity" productID="7170713">
+		<displayName>CAPACITY</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="splfeature" productID="7170713">
+		<displayName>Special Feature</displayName>
+		<value>BOILED EGG HOLDER</value>
+	</productattribute>
+	<productattribute attributeID="content" productID="7170713">
+		<displayName>CONTENT</displayName>
+		<value>6Pcs</value>
+	</productattribute>
+	<productattribute attributeID="brand" productID="71726-9">
+		<displayName>BRAND</displayName>
+		<value></value>
+	</productattribute>
+	<productattribute attributeID="color" productID="71726-9">
+		<displayName>Color</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="design" productID="71726-9">
+		<displayName>Design</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="category" productID="71726-9">
+		<displayName>Category</displayName>
+		<value>Salt Pepper Set</value>
+	</productattribute>
+	<productattribute attributeID="material" productID="71726-9">
+		<displayName>Material</displayName>
+		<value>Stainless Steel</value>
+	</productattribute>
+	<productattribute attributeID="capacity" productID="71726-9">
+		<displayName>CAPACITY</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="splfeature" productID="71726-9">
+		<displayName>Special Feature</displayName>
+		<value>Salt Pepper</value>
+	</productattribute>
+	<productattribute attributeID="content" productID="71726-9">
+		<displayName>CONTENT</displayName>
+		<value>2pcs Set</value>
+	</productattribute>
+	<productattribute attributeID="brand" productID="7172617">
+		<displayName>BRAND</displayName>
+		<value>SWISS</value>
+	</productattribute>
+	<productattribute attributeID="color" productID="7172617">
+		<displayName>Color</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="design" productID="7172617">
+		<displayName>Design</displayName>
+		<value>BLOSSOM</value>
+	</productattribute>
+	<productattribute attributeID="category" productID="7172617">
+		<displayName>Category</displayName>
+		<value>MELAMINE DINNER SET</value>
+	</productattribute>
+	<productattribute attributeID="material" productID="7172617">
+		<displayName>Material</displayName>
+		<value>MELAMINE</value>
+	</productattribute>
+	<productattribute attributeID="capacity" productID="7172617">
+		<displayName>CAPACITY</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="splfeature" productID="7172617">
+		<displayName>Special Feature</displayName>
+		<value></value>
+	</productattribute>
+	<productattribute attributeID="content" productID="7172617">
+		<displayName>CONTENT</displayName>
+		<value>32PCS</value>
+	</productattribute>
+	<productattribute attributeID="brand" productID="71726-3">
+		<displayName>BRAND</displayName>
+		<value>SWISS</value>
+	</productattribute>
+	<productattribute attributeID="color" productID="71726-3">
+		<displayName>Color</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="design" productID="71726-3">
+		<displayName>Design</displayName>
+		<value>PINK LOVE</value>
+	</productattribute>
+	<productattribute attributeID="category" productID="71726-3">
+		<displayName>Category</displayName>
+		<value>MELAMINE DINNER SET</value>
+	</productattribute>
+	<productattribute attributeID="material" productID="71726-3">
+		<displayName>Material</displayName>
+		<value>MELAMINE</value>
+	</productattribute>
+	<productattribute attributeID="capacity" productID="71726-3">
+		<displayName>CAPACITY</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="splfeature" productID="71726-3">
+		<displayName>Special Feature</displayName>
+		<value></value>
+	</productattribute>
+	<productattribute attributeID="content" productID="71726-3">
+		<displayName>CONTENT</displayName>
+		<value>32PCS</value>
+	</productattribute>
+	<productattribute attributeID="brand" productID="71726-6">
+		<displayName>BRAND</displayName>
+		<value>SWISS</value>
+	</productattribute>
+	<productattribute attributeID="color" productID="71726-6">
+		<displayName>Color</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="design" productID="71726-6">
+		<displayName>Design</displayName>
+		<value>FRESCO</value>
+	</productattribute>
+	<productattribute attributeID="category" productID="71726-6">
+		<displayName>Category</displayName>
+		<value>MELAMINE DINNER SET</value>
+	</productattribute>
+	<productattribute attributeID="material" productID="71726-6">
+		<displayName>Material</displayName>
+		<value>MELAMINE</value>
+	</productattribute>
+	<productattribute attributeID="capacity" productID="71726-6">
+		<displayName>CAPACITY</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="splfeature" productID="71726-6">
+		<displayName>Special Feature</displayName>
+		<value></value>
+	</productattribute>
+	<productattribute attributeID="content" productID="71726-6">
+		<displayName>CONTENT</displayName>
+		<value>32PCS</value>
+	</productattribute>
+	<productattribute attributeID="brand" productID="71726-15">
+		<displayName>BRAND</displayName>
+		<value>SWISS</value>
+	</productattribute>
+	<productattribute attributeID="color" productID="71726-15">
+		<displayName>Color</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="design" productID="71726-15">
+		<displayName>Design</displayName>
+		<value>CHICKLETS</value>
+	</productattribute>
+	<productattribute attributeID="category" productID="71726-15">
+		<displayName>Category</displayName>
+		<value>MELAMINE DINNER SET</value>
+	</productattribute>
+	<productattribute attributeID="material" productID="71726-15">
+		<displayName>Material</displayName>
+		<value>MELAMINE</value>
+	</productattribute>
+	<productattribute attributeID="capacity" productID="71726-15">
+		<displayName>CAPACITY</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="splfeature" productID="71726-15">
+		<displayName>Special Feature</displayName>
+		<value></value>
+	</productattribute>
+	<productattribute attributeID="content" productID="71726-15">
+		<displayName>CONTENT</displayName>
+		<value>32PCS</value>
+	</productattribute>
+	<productattribute attributeID="brand" productID="71726-17">
+		<displayName>BRAND</displayName>
+		<value>SWISS</value>
+	</productattribute>
+	<productattribute attributeID="color" productID="71726-17">
+		<displayName>Color</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="design" productID="71726-17">
+		<displayName>Design</displayName>
+		<value>CUBICS</value>
+	</productattribute>
+	<productattribute attributeID="category" productID="71726-17">
+		<displayName>Category</displayName>
+		<value>MELAMINE DINNER SET</value>
+	</productattribute>
+	<productattribute attributeID="material" productID="71726-17">
+		<displayName>Material</displayName>
+		<value>MELAMINE</value>
+	</productattribute>
+	<productattribute attributeID="capacity" productID="71726-17">
+		<displayName>CAPACITY</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="splfeature" productID="71726-17">
+		<displayName>Special Feature</displayName>
+		<value></value>
+	</productattribute>
+	<productattribute attributeID="content" productID="71726-17">
+		<displayName>CONTENT</displayName>
+		<value>32PCS</value>
+	</productattribute>
+	<productattribute attributeID="brand" productID="717262">
+		<displayName>BRAND</displayName>
+		<value>SWISS</value>
+	</productattribute>
+	<productattribute attributeID="color" productID="717262">
+		<displayName>Color</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="design" productID="717262">
+		<displayName>Design</displayName>
+		<value>WAVES</value>
+	</productattribute>
+	<productattribute attributeID="category" productID="717262">
+		<displayName>Category</displayName>
+		<value>MELAMINE DINNER SET</value>
+	</productattribute>
+	<productattribute attributeID="material" productID="717262">
+		<displayName>Material</displayName>
+		<value>MELAMINE</value>
+	</productattribute>
+	<productattribute attributeID="capacity" productID="717262">
+		<displayName>CAPACITY</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="splfeature" productID="717262">
+		<displayName>Special Feature</displayName>
+		<value></value>
+	</productattribute>
+	<productattribute attributeID="content" productID="717262">
+		<displayName>CONTENT</displayName>
+		<value>32PCS</value>
+	</productattribute>
+	<productattribute attributeID="brand" productID="90406697141">
+		<displayName>BRAND</displayName>
+		<value>TONTARELLI</value>
+	</productattribute>
+	<productattribute attributeID="color" productID="90406697141">
+		<displayName>Color</displayName>
+		<value>Dark Blue</value>
+	</productattribute>
+	<productattribute attributeID="design" productID="90406697141">
+		<displayName>Design</displayName>
+		<value>Round Shape</value>
+	</productattribute>
+	<productattribute attributeID="category" productID="90406697141">
+		<displayName>Category</displayName>
+		<value>Storage Set</value>
+	</productattribute>
+	<productattribute attributeID="material" productID="90406697141">
+		<displayName>Material</displayName>
+		<value>Food Grade Italian Plastic</value>
+	</productattribute>
+	<productattribute attributeID="capacity" productID="90406697141">
+		<displayName>CAPACITY</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="splfeature" productID="90406697141">
+		<displayName>Special Feature</displayName>
+		<value></value>
+	</productattribute>
+	<productattribute attributeID="content" productID="90406697141">
+		<displayName>CONTENT</displayName>
+		<value>3pcs</value>
+	</productattribute>
+	<productattribute attributeID="brand" productID="9040669769-14">
+		<displayName>BRAND</displayName>
+		<value>TONTARELLI</value>
+	</productattribute>
+	<productattribute attributeID="color" productID="9040669769-14">
+		<displayName>Color</displayName>
+		<value>Light Blue</value>
+	</productattribute>
+	<productattribute attributeID="design" productID="9040669769-14">
+		<displayName>Design</displayName>
+		<value>Round Shape</value>
+	</productattribute>
+	<productattribute attributeID="category" productID="9040669769-14">
+		<displayName>Category</displayName>
+		<value>Storage Set</value>
+	</productattribute>
+	<productattribute attributeID="material" productID="9040669769-14">
+		<displayName>Material</displayName>
+		<value>Food Grade Italian Plastic</value>
+	</productattribute>
+	<productattribute attributeID="capacity" productID="9040669769-14">
+		<displayName>CAPACITY</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="splfeature" productID="9040669769-14">
+		<displayName>Special Feature</displayName>
+		<value></value>
+	</productattribute>
+	<productattribute attributeID="content" productID="9040669769-14">
+		<displayName>CONTENT</displayName>
+		<value>3pcs</value>
+	</productattribute>
+	<productattribute attributeID="brand" productID="9040669817-8">
+		<displayName>BRAND</displayName>
+		<value>TONTARELLI</value>
+	</productattribute>
+	<productattribute attributeID="color" productID="9040669817-8">
+		<displayName>Color</displayName>
+		<value>Parrot Green</value>
+	</productattribute>
+	<productattribute attributeID="design" productID="9040669817-8">
+		<displayName>Design</displayName>
+		<value>Round Shape</value>
+	</productattribute>
+	<productattribute attributeID="category" productID="9040669817-8">
+		<displayName>Category</displayName>
+		<value>Storage Set</value>
+	</productattribute>
+	<productattribute attributeID="material" productID="9040669817-8">
+		<displayName>Material</displayName>
+		<value>Food Grade Italian Plastic</value>
+	</productattribute>
+	<productattribute attributeID="capacity" productID="9040669817-8">
+		<displayName>CAPACITY</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="splfeature" productID="9040669817-8">
+		<displayName>Special Feature</displayName>
+		<value></value>
+	</productattribute>
+	<productattribute attributeID="content" productID="9040669817-8">
+		<displayName>CONTENT</displayName>
+		<value>3pcs</value>
+	</productattribute>
+	<productattribute attributeID="brand" productID="904066982215">
+		<displayName>BRAND</displayName>
+		<value>TONTARELLI</value>
+	</productattribute>
+	<productattribute attributeID="color" productID="904066982215">
+		<displayName>Color</displayName>
+		<value>Light Green</value>
+	</productattribute>
+	<productattribute attributeID="design" productID="904066982215">
+		<displayName>Design</displayName>
+		<value>Round Shape</value>
+	</productattribute>
+	<productattribute attributeID="category" productID="904066982215">
+		<displayName>Category</displayName>
+		<value>Storage Set</value>
+	</productattribute>
+	<productattribute attributeID="material" productID="904066982215">
+		<displayName>Material</displayName>
+		<value>Food Grade Italian Plastic</value>
+	</productattribute>
+	<productattribute attributeID="capacity" productID="904066982215">
+		<displayName>CAPACITY</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="splfeature" productID="904066982215">
+		<displayName>Special Feature</displayName>
+		<value></value>
+	</productattribute>
+	<productattribute attributeID="content" productID="904066982215">
+		<displayName>CONTENT</displayName>
+		<value>3pcs</value>
+	</productattribute>
+	<productattribute attributeID="brand" productID="90406694079">
+		<displayName>BRAND</displayName>
+		<value>TONTARELLI</value>
+	</productattribute>
+	<productattribute attributeID="color" productID="90406694079">
+		<displayName>Color</displayName>
+		<value>Yellow</value>
+	</productattribute>
+	<productattribute attributeID="design" productID="90406694079">
+		<displayName>Design</displayName>
+		<value>Round Shape</value>
+	</productattribute>
+	<productattribute attributeID="category" productID="90406694079">
+		<displayName>Category</displayName>
+		<value>Storage Set</value>
+	</productattribute>
+	<productattribute attributeID="material" productID="90406694079">
+		<displayName>Material</displayName>
+		<value>Food Grade Italian Plastic</value>
+	</productattribute>
+	<productattribute attributeID="capacity" productID="90406694079">
+		<displayName>CAPACITY</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="splfeature" productID="90406694079">
+		<displayName>Special Feature</displayName>
+		<value></value>
+	</productattribute>
+	<productattribute attributeID="content" productID="90406694079">
+		<displayName>CONTENT</displayName>
+		<value>3pcs</value>
+	</productattribute>
+	<productattribute attributeID="brand" productID="9040669622-4">
+		<displayName>BRAND</displayName>
+		<value>TONTARELLI</value>
+	</productattribute>
+	<productattribute attributeID="color" productID="9040669622-4">
+		<displayName>Color</displayName>
+		<value>Lavander</value>
+	</productattribute>
+	<productattribute attributeID="design" productID="9040669622-4">
+		<displayName>Design</displayName>
+		<value>Round Shape</value>
+	</productattribute>
+	<productattribute attributeID="category" productID="9040669622-4">
+		<displayName>Category</displayName>
+		<value>Storage Set</value>
+	</productattribute>
+	<productattribute attributeID="material" productID="9040669622-4">
+		<displayName>Material</displayName>
+		<value>Food Grade Italian Plastic</value>
+	</productattribute>
+	<productattribute attributeID="capacity" productID="9040669622-4">
+		<displayName>CAPACITY</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="splfeature" productID="9040669622-4">
+		<displayName>Special Feature</displayName>
+		<value></value>
+	</productattribute>
+	<productattribute attributeID="content" productID="9040669622-4">
+		<displayName>CONTENT</displayName>
+		<value>3pcs</value>
+	</productattribute>
+	<productattribute attributeID="brand" productID="904063771418">
+		<displayName>BRAND</displayName>
+		<value>TONTARELLI</value>
+	</productattribute>
+	<productattribute attributeID="color" productID="904063771418">
+		<displayName>Color</displayName>
+		<value>Dark Blue</value>
+	</productattribute>
+	<productattribute attributeID="design" productID="904063771418">
+		<displayName>Design</displayName>
+		<value>Square Shape</value>
+	</productattribute>
+	<productattribute attributeID="category" productID="904063771418">
+		<displayName>Category</displayName>
+		<value>Storage Set</value>
+	</productattribute>
+	<productattribute attributeID="material" productID="904063771418">
+		<displayName>Material</displayName>
+		<value>Food Grade Italian Plastic</value>
+	</productattribute>
+	<productattribute attributeID="capacity" productID="904063771418">
+		<displayName>CAPACITY</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="splfeature" productID="904063771418">
+		<displayName>Special Feature</displayName>
+		<value></value>
+	</productattribute>
+	<productattribute attributeID="content" productID="904063771418">
+		<displayName>CONTENT</displayName>
+		<value>3pcs</value>
+	</productattribute>
+	<productattribute attributeID="brand" productID="90406377694">
+		<displayName>BRAND</displayName>
+		<value>TONTARELLI</value>
+	</productattribute>
+	<productattribute attributeID="color" productID="90406377694">
+		<displayName>Color</displayName>
+		<value>Sky Blue</value>
+	</productattribute>
+	<productattribute attributeID="design" productID="90406377694">
+		<displayName>Design</displayName>
+		<value>Square Shape</value>
+	</productattribute>
+	<productattribute attributeID="category" productID="90406377694">
+		<displayName>Category</displayName>
+		<value>Storage Set</value>
+	</productattribute>
+	<productattribute attributeID="material" productID="90406377694">
+		<displayName>Material</displayName>
+		<value>Food Grade Italian Plastic</value>
+	</productattribute>
+	<productattribute attributeID="capacity" productID="90406377694">
+		<displayName>CAPACITY</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="splfeature" productID="90406377694">
+		<displayName>Special Feature</displayName>
+		<value></value>
+	</productattribute>
+	<productattribute attributeID="content" productID="90406377694">
+		<displayName>CONTENT</displayName>
+		<value>3pcs</value>
+	</productattribute>
+	<productattribute attributeID="brand" productID="9040637817-10">
+		<displayName>BRAND</displayName>
+		<value>TONTARELLI</value>
+	</productattribute>
+	<productattribute attributeID="color" productID="9040637817-10">
+		<displayName>Color</displayName>
+		<value>Parrot Green</value>
+	</productattribute>
+	<productattribute attributeID="design" productID="9040637817-10">
+		<displayName>Design</displayName>
+		<value>Square Shape</value>
+	</productattribute>
+	<productattribute attributeID="category" productID="9040637817-10">
+		<displayName>Category</displayName>
+		<value>Storage Set</value>
+	</productattribute>
+	<productattribute attributeID="material" productID="9040637817-10">
+		<displayName>Material</displayName>
+		<value>Food Grade Italian Plastic</value>
+	</productattribute>
+	<productattribute attributeID="capacity" productID="9040637817-10">
+		<displayName>CAPACITY</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="splfeature" productID="9040637817-10">
+		<displayName>Special Feature</displayName>
+		<value></value>
+	</productattribute>
+	<productattribute attributeID="content" productID="9040637817-10">
+		<displayName>CONTENT</displayName>
+		<value>3pcs</value>
+	</productattribute>
+	<productattribute attributeID="brand" productID="9040637822-9">
+		<displayName>BRAND</displayName>
+		<value>TONTARELLI</value>
+	</productattribute>
+	<productattribute attributeID="color" productID="9040637822-9">
+		<displayName>Color</displayName>
+		<value>Light Green</value>
+	</productattribute>
+	<productattribute attributeID="design" productID="9040637822-9">
+		<displayName>Design</displayName>
+		<value>Square Shape</value>
+	</productattribute>
+	<productattribute attributeID="category" productID="9040637822-9">
+		<displayName>Category</displayName>
+		<value>Storage Set</value>
+	</productattribute>
+	<productattribute attributeID="material" productID="9040637822-9">
+		<displayName>Material</displayName>
+		<value>Food Grade Italian Plastic</value>
+	</productattribute>
+	<productattribute attributeID="capacity" productID="9040637822-9">
+		<displayName>CAPACITY</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="splfeature" productID="9040637822-9">
+		<displayName>Special Feature</displayName>
+		<value></value>
+	</productattribute>
+	<productattribute attributeID="content" productID="9040637822-9">
+		<displayName>CONTENT</displayName>
+		<value>3pcs</value>
+	</productattribute>
+	<productattribute attributeID="brand" productID="90406374074">
+		<displayName>BRAND</displayName>
+		<value>TONTARELLI</value>
+	</productattribute>
+	<productattribute attributeID="color" productID="90406374074">
+		<displayName>Color</displayName>
+		<value>Yellow</value>
+	</productattribute>
+	<productattribute attributeID="design" productID="90406374074">
+		<displayName>Design</displayName>
+		<value>Square Shape</value>
+	</productattribute>
+	<productattribute attributeID="category" productID="90406374074">
+		<displayName>Category</displayName>
+		<value>Storage Set</value>
+	</productattribute>
+	<productattribute attributeID="material" productID="90406374074">
+		<displayName>Material</displayName>
+		<value>Food Grade Italian Plastic</value>
+	</productattribute>
+	<productattribute attributeID="capacity" productID="90406374074">
+		<displayName>CAPACITY</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="splfeature" productID="90406374074">
+		<displayName>Special Feature</displayName>
+		<value></value>
+	</productattribute>
+	<productattribute attributeID="content" productID="90406374074">
+		<displayName>CONTENT</displayName>
+		<value>3pcs</value>
+	</productattribute>
+	<productattribute attributeID="brand" productID="9040637622-11">
+		<displayName>BRAND</displayName>
+		<value>TONTARELLI</value>
+	</productattribute>
+	<productattribute attributeID="color" productID="9040637622-11">
+		<displayName>Color</displayName>
+		<value>Lavander</value>
+	</productattribute>
+	<productattribute attributeID="design" productID="9040637622-11">
+		<displayName>Design</displayName>
+		<value>Square Shape</value>
+	</productattribute>
+	<productattribute attributeID="category" productID="9040637622-11">
+		<displayName>Category</displayName>
+		<value>Storage Set</value>
+	</productattribute>
+	<productattribute attributeID="material" productID="9040637622-11">
+		<displayName>Material</displayName>
+		<value>Food Grade Italian Plastic</value>
+	</productattribute>
+	<productattribute attributeID="capacity" productID="9040637622-11">
+		<displayName>CAPACITY</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="splfeature" productID="9040637622-11">
+		<displayName>Special Feature</displayName>
+		<value></value>
+	</productattribute>
+	<productattribute attributeID="content" productID="9040637622-11">
+		<displayName>CONTENT</displayName>
+		<value>3pcs</value>
+	</productattribute>
+	<productattribute attributeID="brand" productID="904057271415">
+		<displayName>BRAND</displayName>
+		<value>TONTARELLI</value>
+	</productattribute>
+	<productattribute attributeID="color" productID="904057271415">
+		<displayName>Color</displayName>
+		<value>Dark Blue</value>
+	</productattribute>
+	<productattribute attributeID="design" productID="904057271415">
+		<displayName>Design</displayName>
+		<value>Rectangular Shape</value>
+	</productattribute>
+	<productattribute attributeID="category" productID="904057271415">
+		<displayName>Category</displayName>
+		<value>Storage Set</value>
+	</productattribute>
+	<productattribute attributeID="material" productID="904057271415">
+		<displayName>Material</displayName>
+		<value>Food Grade Italian Plastic</value>
+	</productattribute>
+	<productattribute attributeID="capacity" productID="904057271415">
+		<displayName>CAPACITY</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="splfeature" productID="904057271415">
+		<displayName>Special Feature</displayName>
+		<value></value>
+	</productattribute>
+	<productattribute attributeID="content" productID="904057271415">
+		<displayName>CONTENT</displayName>
+		<value>3pcs</value>
+	</productattribute>
+	<productattribute attributeID="brand" productID="9040572769-3">
+		<displayName>BRAND</displayName>
+		<value>TONTARELLI</value>
+	</productattribute>
+	<productattribute attributeID="color" productID="9040572769-3">
+		<displayName>Color</displayName>
+		<value>Sky Blue</value>
+	</productattribute>
+	<productattribute attributeID="design" productID="9040572769-3">
+		<displayName>Design</displayName>
+		<value>Rectangular Shape</value>
+	</productattribute>
+	<productattribute attributeID="category" productID="9040572769-3">
+		<displayName>Category</displayName>
+		<value>Storage Set</value>
+	</productattribute>
+	<productattribute attributeID="material" productID="9040572769-3">
+		<displayName>Material</displayName>
+		<value>Food Grade Italian Plastic</value>
+	</productattribute>
+	<productattribute attributeID="capacity" productID="9040572769-3">
+		<displayName>CAPACITY</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="splfeature" productID="9040572769-3">
+		<displayName>Special Feature</displayName>
+		<value></value>
+	</productattribute>
+	<productattribute attributeID="content" productID="9040572769-3">
+		<displayName>CONTENT</displayName>
+		<value>3pcs</value>
+	</productattribute>
+	<productattribute attributeID="brand" productID="9040572817-17">
+		<displayName>BRAND</displayName>
+		<value>TONTARELLI</value>
+	</productattribute>
+	<productattribute attributeID="color" productID="9040572817-17">
+		<displayName>Color</displayName>
+		<value>Parrot Green</value>
+	</productattribute>
+	<productattribute attributeID="design" productID="9040572817-17">
+		<displayName>Design</displayName>
+		<value>Rectangular Shape</value>
+	</productattribute>
+	<productattribute attributeID="category" productID="9040572817-17">
+		<displayName>Category</displayName>
+		<value>Storage Set</value>
+	</productattribute>
+	<productattribute attributeID="material" productID="9040572817-17">
+		<displayName>Material</displayName>
+		<value>Food Grade Italian Plastic</value>
+	</productattribute>
+	<productattribute attributeID="capacity" productID="9040572817-17">
+		<displayName>CAPACITY</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="splfeature" productID="9040572817-17">
+		<displayName>Special Feature</displayName>
+		<value></value>
+	</productattribute>
+	<productattribute attributeID="content" productID="9040572817-17">
+		<displayName>CONTENT</displayName>
+		<value>3pcs</value>
+	</productattribute>
+	<productattribute attributeID="brand" productID="904057282218">
+		<displayName>BRAND</displayName>
+		<value>TONTARELLI</value>
+	</productattribute>
+	<productattribute attributeID="color" productID="904057282218">
+		<displayName>Color</displayName>
+		<value>Light Green</value>
+	</productattribute>
+	<productattribute attributeID="design" productID="904057282218">
+		<displayName>Design</displayName>
+		<value>Rectangular Shape</value>
+	</productattribute>
+	<productattribute attributeID="category" productID="904057282218">
+		<displayName>Category</displayName>
+		<value>Storage Set</value>
+	</productattribute>
+	<productattribute attributeID="material" productID="904057282218">
+		<displayName>Material</displayName>
+		<value>Food Grade Italian Plastic</value>
+	</productattribute>
+	<productattribute attributeID="capacity" productID="904057282218">
+		<displayName>CAPACITY</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="splfeature" productID="904057282218">
+		<displayName>Special Feature</displayName>
+		<value></value>
+	</productattribute>
+	<productattribute attributeID="content" productID="904057282218">
+		<displayName>CONTENT</displayName>
+		<value>3pcs</value>
+	</productattribute>
+	<productattribute attributeID="brand" productID="904057240717">
+		<displayName>BRAND</displayName>
+		<value>TONTARELLI</value>
+	</productattribute>
+	<productattribute attributeID="color" productID="904057240717">
+		<displayName>Color</displayName>
+		<value>Yellow</value>
+	</productattribute>
+	<productattribute attributeID="design" productID="904057240717">
+		<displayName>Design</displayName>
+		<value>Rectangular Shape</value>
+	</productattribute>
+	<productattribute attributeID="category" productID="904057240717">
+		<displayName>Category</displayName>
+		<value>Storage Set</value>
+	</productattribute>
+	<productattribute attributeID="material" productID="904057240717">
+		<displayName>Material</displayName>
+		<value>Food Grade Italian Plastic</value>
+	</productattribute>
+	<productattribute attributeID="capacity" productID="904057240717">
+		<displayName>CAPACITY</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="splfeature" productID="904057240717">
+		<displayName>Special Feature</displayName>
+		<value></value>
+	</productattribute>
+	<productattribute attributeID="content" productID="904057240717">
+		<displayName>CONTENT</displayName>
+		<value>3pcs</value>
+	</productattribute>
+	<productattribute attributeID="brand" productID="9040572622-7">
+		<displayName>BRAND</displayName>
+		<value>TONTARELLI</value>
+	</productattribute>
+	<productattribute attributeID="color" productID="9040572622-7">
+		<displayName>Color</displayName>
+		<value>Lavander</value>
+	</productattribute>
+	<productattribute attributeID="design" productID="9040572622-7">
+		<displayName>Design</displayName>
+		<value>Rectangular Shape</value>
+	</productattribute>
+	<productattribute attributeID="category" productID="9040572622-7">
+		<displayName>Category</displayName>
+		<value>Storage Set</value>
+	</productattribute>
+	<productattribute attributeID="material" productID="9040572622-7">
+		<displayName>Material</displayName>
+		<value>Food Grade Italian Plastic</value>
+	</productattribute>
+	<productattribute attributeID="capacity" productID="9040572622-7">
+		<displayName>CAPACITY</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="splfeature" productID="9040572622-7">
+		<displayName>Special Feature</displayName>
+		<value></value>
+	</productattribute>
+	<productattribute attributeID="content" productID="9040572622-7">
+		<displayName>CONTENT</displayName>
+		<value>3pcs</value>
+	</productattribute>
+	<productattribute attributeID="brand" productID="1572693771417">
+		<displayName>BRAND</displayName>
+		<value>TONTARELLI</value>
+	</productattribute>
+	<productattribute attributeID="color" productID="1572693771417">
+		<displayName>Color</displayName>
+		<value>Dark Blue</value>
+	</productattribute>
+	<productattribute attributeID="design" productID="1572693771417">
+		<displayName>Design</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="category" productID="1572693771417">
+		<displayName>Category</displayName>
+		<value>Storage Set</value>
+	</productattribute>
+	<productattribute attributeID="material" productID="1572693771417">
+		<displayName>Material</displayName>
+		<value>Food Grade Italian Plastic</value>
+	</productattribute>
+	<productattribute attributeID="capacity" productID="1572693771417">
+		<displayName>CAPACITY</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="splfeature" productID="1572693771417">
+		<displayName>Special Feature</displayName>
+		<value></value>
+	</productattribute>
+	<productattribute attributeID="content" productID="1572693771417">
+		<displayName>CONTENT</displayName>
+		<value>15PCS</value>
+	</productattribute>
+	<productattribute attributeID="brand" productID="15726937769-16">
+		<displayName>BRAND</displayName>
+		<value>TONTARELLI</value>
+	</productattribute>
+	<productattribute attributeID="color" productID="15726937769-16">
+		<displayName>Color</displayName>
+		<value>Sky Blue</value>
+	</productattribute>
+	<productattribute attributeID="design" productID="15726937769-16">
+		<displayName>Design</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="category" productID="15726937769-16">
+		<displayName>Category</displayName>
+		<value>Storage Set</value>
+	</productattribute>
+	<productattribute attributeID="material" productID="15726937769-16">
+		<displayName>Material</displayName>
+		<value>Food Grade Italian Plastic</value>
+	</productattribute>
+	<productattribute attributeID="capacity" productID="15726937769-16">
+		<displayName>CAPACITY</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="splfeature" productID="15726937769-16">
+		<displayName>Special Feature</displayName>
+		<value></value>
+	</productattribute>
+	<productattribute attributeID="content" productID="15726937769-16">
+		<displayName>CONTENT</displayName>
+		<value>15PCS</value>
+	</productattribute>
+	<productattribute attributeID="brand" productID="15726937817-13">
+		<displayName>BRAND</displayName>
+		<value>TONTARELLI</value>
+	</productattribute>
+	<productattribute attributeID="color" productID="15726937817-13">
+		<displayName>Color</displayName>
+		<value>Parrot Green</value>
+	</productattribute>
+	<productattribute attributeID="design" productID="15726937817-13">
+		<displayName>Design</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="category" productID="15726937817-13">
+		<displayName>Category</displayName>
+		<value>Storage Set</value>
+	</productattribute>
+	<productattribute attributeID="material" productID="15726937817-13">
+		<displayName>Material</displayName>
+		<value>Food Grade Italian Plastic</value>
+	</productattribute>
+	<productattribute attributeID="capacity" productID="15726937817-13">
+		<displayName>CAPACITY</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="splfeature" productID="15726937817-13">
+		<displayName>Special Feature</displayName>
+		<value></value>
+	</productattribute>
+	<productattribute attributeID="content" productID="15726937817-13">
+		<displayName>CONTENT</displayName>
+		<value>15PCS</value>
+	</productattribute>
+	<productattribute attributeID="brand" productID="15726937822-16">
+		<displayName>BRAND</displayName>
+		<value>TONTARELLI</value>
+	</productattribute>
+	<productattribute attributeID="color" productID="15726937822-16">
+		<displayName>Color</displayName>
+		<value>Light Green</value>
+	</productattribute>
+	<productattribute attributeID="design" productID="15726937822-16">
+		<displayName>Design</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="category" productID="15726937822-16">
+		<displayName>Category</displayName>
+		<value>Storage Set</value>
+	</productattribute>
+	<productattribute attributeID="material" productID="15726937822-16">
+		<displayName>Material</displayName>
+		<value>Food Grade Italian Plastic</value>
+	</productattribute>
+	<productattribute attributeID="capacity" productID="15726937822-16">
+		<displayName>CAPACITY</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="splfeature" productID="15726937822-16">
+		<displayName>Special Feature</displayName>
+		<value></value>
+	</productattribute>
+	<productattribute attributeID="content" productID="15726937822-16">
+		<displayName>CONTENT</displayName>
+		<value>15PCS</value>
+	</productattribute>
+	<productattribute attributeID="brand" productID="15726937407-10">
+		<displayName>BRAND</displayName>
+		<value>TONTARELLI</value>
+	</productattribute>
+	<productattribute attributeID="color" productID="15726937407-10">
+		<displayName>Color</displayName>
+		<value>Yellow</value>
+	</productattribute>
+	<productattribute attributeID="design" productID="15726937407-10">
+		<displayName>Design</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="category" productID="15726937407-10">
+		<displayName>Category</displayName>
+		<value>Storage Set</value>
+	</productattribute>
+	<productattribute attributeID="material" productID="15726937407-10">
+		<displayName>Material</displayName>
+		<value>Food Grade Italian Plastic</value>
+	</productattribute>
+	<productattribute attributeID="capacity" productID="15726937407-10">
+		<displayName>CAPACITY</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="splfeature" productID="15726937407-10">
+		<displayName>Special Feature</displayName>
+		<value></value>
+	</productattribute>
+	<productattribute attributeID="content" productID="15726937407-10">
+		<displayName>CONTENT</displayName>
+		<value>15PCS</value>
+	</productattribute>
+	<productattribute attributeID="brand" productID="1572693762215">
+		<displayName>BRAND</displayName>
+		<value>TONTARELLI</value>
+	</productattribute>
+	<productattribute attributeID="color" productID="1572693762215">
+		<displayName>Color</displayName>
+		<value>Lavander</value>
+	</productattribute>
+	<productattribute attributeID="design" productID="1572693762215">
+		<displayName>Design</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="category" productID="1572693762215">
+		<displayName>Category</displayName>
+		<value>Storage Set</value>
+	</productattribute>
+	<productattribute attributeID="material" productID="1572693762215">
+		<displayName>Material</displayName>
+		<value>Food Grade Italian Plastic</value>
+	</productattribute>
+	<productattribute attributeID="capacity" productID="1572693762215">
+		<displayName>CAPACITY</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="splfeature" productID="1572693762215">
+		<displayName>Special Feature</displayName>
+		<value></value>
+	</productattribute>
+	<productattribute attributeID="content" productID="1572693762215">
+		<displayName>CONTENT</displayName>
+		<value>15PCS</value>
+	</productattribute>
+	<productattribute attributeID="brand" productID="18726937714-12">
+		<displayName>BRAND</displayName>
+		<value>TONTARELLI</value>
+	</productattribute>
+	<productattribute attributeID="color" productID="18726937714-12">
+		<displayName>Color</displayName>
+		<value>Dark Blue</value>
+	</productattribute>
+	<productattribute attributeID="design" productID="18726937714-12">
+		<displayName>Design</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="category" productID="18726937714-12">
+		<displayName>Category</displayName>
+		<value>Storage Set</value>
+	</productattribute>
+	<productattribute attributeID="material" productID="18726937714-12">
+		<displayName>Material</displayName>
+		<value>Food Grade Italian Plastic</value>
+	</productattribute>
+	<productattribute attributeID="capacity" productID="18726937714-12">
+		<displayName>CAPACITY</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="splfeature" productID="18726937714-12">
+		<displayName>Special Feature</displayName>
+		<value></value>
+	</productattribute>
+	<productattribute attributeID="content" productID="18726937714-12">
+		<displayName>CONTENT</displayName>
+		<value>18pcs</value>
+	</productattribute>
+	<productattribute attributeID="brand" productID="1872693776911">
+		<displayName>BRAND</displayName>
+		<value>TONTARELLI</value>
+	</productattribute>
+	<productattribute attributeID="color" productID="1872693776911">
+		<displayName>Color</displayName>
+		<value>Sky Blue</value>
+	</productattribute>
+	<productattribute attributeID="design" productID="1872693776911">
+		<displayName>Design</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="category" productID="1872693776911">
+		<displayName>Category</displayName>
+		<value>Storage Set</value>
+	</productattribute>
+	<productattribute attributeID="material" productID="1872693776911">
+		<displayName>Material</displayName>
+		<value>Food Grade Italian Plastic</value>
+	</productattribute>
+	<productattribute attributeID="capacity" productID="1872693776911">
+		<displayName>CAPACITY</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="splfeature" productID="1872693776911">
+		<displayName>Special Feature</displayName>
+		<value></value>
+	</productattribute>
+	<productattribute attributeID="content" productID="1872693776911">
+		<displayName>CONTENT</displayName>
+		<value>18pcs</value>
+	</productattribute>
+	<productattribute attributeID="brand" productID="18726937817-7">
+		<displayName>BRAND</displayName>
+		<value>TONTARELLI</value>
+	</productattribute>
+	<productattribute attributeID="color" productID="18726937817-7">
+		<displayName>Color</displayName>
+		<value>Parrot Green</value>
+	</productattribute>
+	<productattribute attributeID="design" productID="18726937817-7">
+		<displayName>Design</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="category" productID="18726937817-7">
+		<displayName>Category</displayName>
+		<value>Storage Set</value>
+	</productattribute>
+	<productattribute attributeID="material" productID="18726937817-7">
+		<displayName>Material</displayName>
+		<value>Food Grade Italian Plastic</value>
+	</productattribute>
+	<productattribute attributeID="capacity" productID="18726937817-7">
+		<displayName>CAPACITY</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="splfeature" productID="18726937817-7">
+		<displayName>Special Feature</displayName>
+		<value></value>
+	</productattribute>
+	<productattribute attributeID="content" productID="18726937817-7">
+		<displayName>CONTENT</displayName>
+		<value>18pcs</value>
+	</productattribute>
+	<productattribute attributeID="brand" productID="18726937822-2">
+		<displayName>BRAND</displayName>
+		<value>TONTARELLI</value>
+	</productattribute>
+	<productattribute attributeID="color" productID="18726937822-2">
+		<displayName>Color</displayName>
+		<value>Light Green</value>
+	</productattribute>
+	<productattribute attributeID="design" productID="18726937822-2">
+		<displayName>Design</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="category" productID="18726937822-2">
+		<displayName>Category</displayName>
+		<value>Storage Set</value>
+	</productattribute>
+	<productattribute attributeID="material" productID="18726937822-2">
+		<displayName>Material</displayName>
+		<value>Food Grade Italian Plastic</value>
+	</productattribute>
+	<productattribute attributeID="capacity" productID="18726937822-2">
+		<displayName>CAPACITY</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="splfeature" productID="18726937822-2">
+		<displayName>Special Feature</displayName>
+		<value></value>
+	</productattribute>
+	<productattribute attributeID="content" productID="18726937822-2">
+		<displayName>CONTENT</displayName>
+		<value>18pcs</value>
+	</productattribute>
+	<productattribute attributeID="brand" productID="187269374078">
+		<displayName>BRAND</displayName>
+		<value>TONTARELLI</value>
+	</productattribute>
+	<productattribute attributeID="color" productID="187269374078">
+		<displayName>Color</displayName>
+		<value>Yellow</value>
+	</productattribute>
+	<productattribute attributeID="design" productID="187269374078">
+		<displayName>Design</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="category" productID="187269374078">
+		<displayName>Category</displayName>
+		<value>Storage Set</value>
+	</productattribute>
+	<productattribute attributeID="material" productID="187269374078">
+		<displayName>Material</displayName>
+		<value>Food Grade Italian Plastic</value>
+	</productattribute>
+	<productattribute attributeID="capacity" productID="187269374078">
+		<displayName>CAPACITY</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="splfeature" productID="187269374078">
+		<displayName>Special Feature</displayName>
+		<value></value>
+	</productattribute>
+	<productattribute attributeID="content" productID="187269374078">
+		<displayName>CONTENT</displayName>
+		<value>18pcs</value>
+	</productattribute>
+	<productattribute attributeID="brand" productID="18726937622-15">
+		<displayName>BRAND</displayName>
+		<value>TONTARELLI</value>
+	</productattribute>
+	<productattribute attributeID="color" productID="18726937622-15">
+		<displayName>Color</displayName>
+		<value>Lavander</value>
+	</productattribute>
+	<productattribute attributeID="design" productID="18726937622-15">
+		<displayName>Design</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="category" productID="18726937622-15">
+		<displayName>Category</displayName>
+		<value>Storage Set</value>
+	</productattribute>
+	<productattribute attributeID="material" productID="18726937622-15">
+		<displayName>Material</displayName>
+		<value>Food Grade Italian Plastic</value>
+	</productattribute>
+	<productattribute attributeID="capacity" productID="18726937622-15">
+		<displayName>CAPACITY</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="splfeature" productID="18726937622-15">
+		<displayName>Special Feature</displayName>
+		<value></value>
+	</productattribute>
+	<productattribute attributeID="content" productID="18726937622-15">
+		<displayName>CONTENT</displayName>
+		<value>18pcs</value>
+	</productattribute>
+	<productattribute attributeID="brand" productID="127269377141">
+		<displayName>BRAND</displayName>
+		<value>TONTARELLI</value>
+	</productattribute>
+	<productattribute attributeID="color" productID="127269377141">
+		<displayName>Color</displayName>
+		<value>Dark Blue</value>
+	</productattribute>
+	<productattribute attributeID="design" productID="127269377141">
+		<displayName>Design</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="category" productID="127269377141">
+		<displayName>Category</displayName>
+		<value>Storage Set</value>
+	</productattribute>
+	<productattribute attributeID="material" productID="127269377141">
+		<displayName>Material</displayName>
+		<value>Food Grade Italian Plastic</value>
+	</productattribute>
+	<productattribute attributeID="capacity" productID="127269377141">
+		<displayName>CAPACITY</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="splfeature" productID="127269377141">
+		<displayName>Special Feature</displayName>
+		<value></value>
+	</productattribute>
+	<productattribute attributeID="content" productID="127269377141">
+		<displayName>CONTENT</displayName>
+		<value>12pcs</value>
+	</productattribute>
+	<productattribute attributeID="brand" productID="127269377146">
+		<displayName>BRAND</displayName>
+		<value>TONTARELLI</value>
+	</productattribute>
+	<productattribute attributeID="color" productID="127269377146">
+		<displayName>Color</displayName>
+		<value>Sky Blue</value>
+	</productattribute>
+	<productattribute attributeID="design" productID="127269377146">
+		<displayName>Design</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="category" productID="127269377146">
+		<displayName>Category</displayName>
+		<value>Storage Set</value>
+	</productattribute>
+	<productattribute attributeID="material" productID="127269377146">
+		<displayName>Material</displayName>
+		<value>Food Grade Italian Plastic</value>
+	</productattribute>
+	<productattribute attributeID="capacity" productID="127269377146">
+		<displayName>CAPACITY</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="splfeature" productID="127269377146">
+		<displayName>Special Feature</displayName>
+		<value></value>
+	</productattribute>
+	<productattribute attributeID="content" productID="127269377146">
+		<displayName>CONTENT</displayName>
+		<value>12pcs</value>
+	</productattribute>
+	<productattribute attributeID="brand" productID="12726937714-4">
+		<displayName>BRAND</displayName>
+		<value>TONTARELLI</value>
+	</productattribute>
+	<productattribute attributeID="color" productID="12726937714-4">
+		<displayName>Color</displayName>
+		<value>Parrot Green</value>
+	</productattribute>
+	<productattribute attributeID="design" productID="12726937714-4">
+		<displayName>Design</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="category" productID="12726937714-4">
+		<displayName>Category</displayName>
+		<value>Storage Set</value>
+	</productattribute>
+	<productattribute attributeID="material" productID="12726937714-4">
+		<displayName>Material</displayName>
+		<value>Food Grade Italian Plastic</value>
+	</productattribute>
+	<productattribute attributeID="capacity" productID="12726937714-4">
+		<displayName>CAPACITY</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="splfeature" productID="12726937714-4">
+		<displayName>Special Feature</displayName>
+		<value></value>
+	</productattribute>
+	<productattribute attributeID="content" productID="12726937714-4">
+		<displayName>CONTENT</displayName>
+		<value>12pcs</value>
+	</productattribute>
+	<productattribute attributeID="brand" productID="12726937714-13">
+		<displayName>BRAND</displayName>
+		<value>TONTARELLI</value>
+	</productattribute>
+	<productattribute attributeID="color" productID="12726937714-13">
+		<displayName>Color</displayName>
+		<value>Light Green</value>
+	</productattribute>
+	<productattribute attributeID="design" productID="12726937714-13">
+		<displayName>Design</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="category" productID="12726937714-13">
+		<displayName>Category</displayName>
+		<value>Storage Set</value>
+	</productattribute>
+	<productattribute attributeID="material" productID="12726937714-13">
+		<displayName>Material</displayName>
+		<value>Food Grade Italian Plastic</value>
+	</productattribute>
+	<productattribute attributeID="capacity" productID="12726937714-13">
+		<displayName>CAPACITY</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="splfeature" productID="12726937714-13">
+		<displayName>Special Feature</displayName>
+		<value></value>
+	</productattribute>
+	<productattribute attributeID="content" productID="12726937714-13">
+		<displayName>CONTENT</displayName>
+		<value>12pcs</value>
+	</productattribute>
+	<productattribute attributeID="brand" productID="1272693771410">
+		<displayName>BRAND</displayName>
+		<value>TONTARELLI</value>
+	</productattribute>
+	<productattribute attributeID="color" productID="1272693771410">
+		<displayName>Color</displayName>
+		<value>Yellow</value>
+	</productattribute>
+	<productattribute attributeID="design" productID="1272693771410">
+		<displayName>Design</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="category" productID="1272693771410">
+		<displayName>Category</displayName>
+		<value>Storage Set</value>
+	</productattribute>
+	<productattribute attributeID="material" productID="1272693771410">
+		<displayName>Material</displayName>
+		<value>Food Grade Italian Plastic</value>
+	</productattribute>
+	<productattribute attributeID="capacity" productID="1272693771410">
+		<displayName>CAPACITY</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="splfeature" productID="1272693771410">
+		<displayName>Special Feature</displayName>
+		<value></value>
+	</productattribute>
+	<productattribute attributeID="content" productID="1272693771410">
+		<displayName>CONTENT</displayName>
+		<value>12pcs</value>
+	</productattribute>
+	<productattribute attributeID="brand" productID="1272693771416">
+		<displayName>BRAND</displayName>
+		<value>TONTARELLI</value>
+	</productattribute>
+	<productattribute attributeID="color" productID="1272693771416">
+		<displayName>Color</displayName>
+		<value>Lavander</value>
+	</productattribute>
+	<productattribute attributeID="design" productID="1272693771416">
+		<displayName>Design</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="category" productID="1272693771416">
+		<displayName>Category</displayName>
+		<value>Storage Set</value>
+	</productattribute>
+	<productattribute attributeID="material" productID="1272693771416">
+		<displayName>Material</displayName>
+		<value>Food Grade Italian Plastic</value>
+	</productattribute>
+	<productattribute attributeID="capacity" productID="1272693771416">
+		<displayName>CAPACITY</displayName>
+		<value>NA</value>
+	</productattribute>
+	<productattribute attributeID="splfeature" productID="1272693771416">
+		<displayName>Special Feature</displayName>
+		<value></value>
+	</productattribute>
+	<productattribute attributeID="content" productID="1272693771416">
+		<displayName>CONTENT</displayName>
+		<value>12pcs</value>
+	</productattribute>
+	<productlabel labelID="dod" productID="S7354010" />
+	<productlabel labelID="feature" productID="S7354010" />
+	<productlabel labelID="feature" productID="S7354114" />
+	<productlabel labelID="feature" productID="S7304912" />
+	<productlabel labelID="feature" productID="S73050-5" />
+	<productlabel labelID="feature" productID="ST 252721-1" />
+	<productlabel labelID="feature" productID="904063771418" />
+	<productlabel labelID="feature" productID="904057271415" />
+	<productlabel labelID="feature" productID="7172617" />
+	<productlabel labelID="recent" productID="90406697141" />
+	<productlabel labelID="recent" productID="7170713" />
+	<productlabel labelID="recent" productID="15726937769-16" />
+	<productlabel labelID="recent" productID="187269374078" />
+	<productlabel labelID="recent" productID="127269377141" />
+	<productvariation variationID="1272693771416"
+		productID="127269377146" variationAttribute="Color" />
+	<productvariation variationID="1272693771410"
+		productID="127269377146" variationAttribute="Color" />
+	<productvariation variationID="12726937714-13"
+		productID="127269377146" variationAttribute="Color" />
+	<productvariation variationID="12726937714-4"
+		productID="127269377146" variationAttribute="Color" />
+	<productvariation variationID="127269377141"
+		productID="127269377146" variationAttribute="Color" />
+	<productvariation variationID="127269377146"
+		productID="127269377146" variationAttribute="Color" />
+	<productvariation variationID="18726937622-15"
+		productID="187269374078" variationAttribute="Color" />
+	<productvariation variationID="18726937822-2"
+		productID="187269374078" variationAttribute="Color" />
+	<productvariation variationID="18726937817-7"
+		productID="187269374078" variationAttribute="Color" />
+	<productvariation variationID="1872693776911"
+		productID="187269374078" variationAttribute="Color" />
+	<productvariation variationID="187269374078"
+		productID="187269374078" variationAttribute="Color" />
+	<productvariation variationID="18726937714-12"
+		productID="15726937769-16" variationAttribute="Color" />
+	<productvariation variationID="1572693762215"
+		productID="15726937769-16" variationAttribute="Color" />
+	<productvariation variationID="15726937407-10"
+		productID="15726937769-16" variationAttribute="Color" />
+	<productvariation variationID="15726937822-16"
+		productID="15726937769-16" variationAttribute="Color" />
+	<productvariation variationID="15726937817-13"
+		productID="15726937769-16" variationAttribute="Color" />
+	<productvariation variationID="1572693771417"
+		productID="15726937769-16" variationAttribute="Color" />
+	<productvariation variationID="15726937769-16"
+		productID="15726937769-16" variationAttribute="Color" />
+	<productvariation variationID="9040572622-7"
+		productID="904057271415" variationAttribute="Color" />
+	<productvariation variationID="904057240717"
+		productID="904057271415" variationAttribute="Color" />
+	<productvariation variationID="904057282218"
+		productID="904057271415" variationAttribute="Color" />
+	<productvariation variationID="9040572817-17"
+		productID="904057271415" variationAttribute="Color" />
+	<productvariation variationID="9040572769-3"
+		productID="904057271415" variationAttribute="Color" />
+	<productvariation variationID="904057271415"
+		productID="904057271415" variationAttribute="Color" />
+	<productvariation variationID="9040637622-11"
+		productID="904063771418" variationAttribute="Color" />
+	<productvariation variationID="90406374074" productID="904063771418"
+		variationAttribute="Color" />
+	<productvariation variationID="9040637822-9"
+		productID="904063771418" variationAttribute="Color" />
+	<productvariation variationID="9040637817-10"
+		productID="904063771418" variationAttribute="Color" />
+	<productvariation variationID="90406377694" productID="904063771418"
+		variationAttribute="Color" />
+	<productvariation variationID="904063771418"
+		productID="904063771418" variationAttribute="Color" />
+	<productvariation variationID="9040669622-4"
+		productID="90406697141" variationAttribute="Color" />
+	<productvariation variationID="90406694079" productID="90406697141"
+		variationAttribute="Color" />
+	<productvariation variationID="904066982215"
+		productID="90406697141" variationAttribute="Color" />
+	<productvariation variationID="9040669817-8"
+		productID="90406697141" variationAttribute="Color" />
+	<productvariation variationID="9040669769-14"
+		productID="90406697141" variationAttribute="Color" />
+	<productvariation variationID="90406697141" productID="90406697141"
+		variationAttribute="Color" />
+	<productvariation variationID="717262" productID="7172617"
+		variationAttribute="Design" />
+	<productvariation variationID="71726-17" productID="7172617"
+		variationAttribute="Design" />
+	<productvariation variationID="71726-15" productID="7172617"
+		variationAttribute="Design" />
+	<productvariation variationID="71726-6" productID="7172617"
+		variationAttribute="Design" />
+	<productvariation variationID="71726-3" productID="7172617"
+		variationAttribute="Design" />
+	<productvariation variationID="7172617" productID="7172617"
+		variationAttribute="Design" />
+</relations>

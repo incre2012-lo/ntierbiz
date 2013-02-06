@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE urlrewrite PUBLIC "-//tuckey.org//DTD UrlRewrite 3.0//EN"
+        "http://tuckey.org/res/dtds/urlrewrite3.2.dtd">
+
+<!--
+
+    configuration file for urlRewriteFilter
+
+-->
+
+<urlrewrite>
+	 <rule>
+        <from>^/runWithParam/([0-9])+/$</from>
+        <run class="org.tuckey.web.filters.urlrewrite.test.TestRunObj" method="runWithParam(int)"/>
+    </rule>
+
+    <rule>
+        <from>^/lowerMe/([A-Z])+/$</from>
+        <to>/lowerMe/${lower:$1}</to>
+    </rule>
+</urlrewrite>
+

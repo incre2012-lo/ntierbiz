@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="finnybunny">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/resource/spring"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/resource/struts"/>
+        <property name="context-root" value="finnybunny"/>
+        <property name="java-output-path" value="/finnybunny/build/classes"/>
+    </wb-module>
+</project-modules>

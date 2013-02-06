@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+
+
+
+
+* {margin:0; padding:0;}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {border:0; outline:0; vertical-align:baseline; background:transparent;}
+.hidden {position:absolute; left:-1000em; top:-1000em; width:1px; height:1px; overflow:hidden;}
+.noscreen {display:none;}
+.box {min-height:1px;}
+.box:after {display:block; visibility:hidden; clear:both; line-height:0; font-size:0; content:".";}
+.fix {float:none; clear:both; width:0; height:0; margin:0; padding:0; border:0; line-height:0; font-size:0;}
+.f-left {float:left !important;}
+.f-right {float:right !important;}
+.t-left {text-align:left !important;}
+.t-center {text-align:center !important;}
+.t-right {text-align:right !important;}
+.t-justify {text-align:justify !important;}
+.va-top {vertical-align:top !important;}
+.va-middle {vertical-align:middle !important;}
+.va-bottom {vertical-align:bottom !important;}
+.nom {margin:0 !important;}
+.nomt {margin-top:0 !important;}
+.nomb {margin-bottom:0 !important;}
+
+body {background-color:#eaeaea; color:#303030;}
+a {color:#0085cc;}
+a:hover, a:active, a:focus {color:#df0000;}
+
+body {font:0.8em/1.5 "arial", sans-serif;}
+h1, h2, h3, h4, h5, h6, address, blockquote, dl, fieldset, ol, p,ul {margin:15px 0;}
+
+#aside {float:left; width:215px; margin-right:0;}
+#content {margin-left:232px; overflow:visible;}
+#content {padding:20px; overflow:hidden;}
+html>body #aside {margin-right:20px;}
+html>body #content {margin-left:0; overflow:hidden;}
+
+
+#cols {
+  position:relative; margin:15px 0; padding-right:15px; background:url("../design/content.gif") 230px 0 repeat-y;
+}
+
+
+#login-holder {
+    margin: 150px auto;
+    width: 508px;
+}
+
+
+#loginbox {
+	background: url("../images/loginbox_bg.png") no-repeat scroll 0 0 transparent;
+    font-size: 12px;
+    height: 252px;
+    line-height: 12px;
+    padding-top: 20px;
+    padding-left: 40px;
+    position: relative;
+    width: 508px;
+} 

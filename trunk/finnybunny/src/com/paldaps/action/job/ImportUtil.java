@@ -180,10 +180,17 @@ public class ImportUtil {
 						Iterator<Integer> indexItr=linkedHashMap.values().iterator();
 						while(indexItr.hasNext()){
 							Integer index=indexItr.next();
-							if(index==-1 ||f.length<=index)
-							out.print(""+"@");
-							else
-							out.print(f[index]+"@");
+							try {
+								if(index==-1 ||f.length<=index)
+									out.print(""+"@");
+								else if("null".equals(f[index]))
+									out.print(""+"@");
+								else
+									out.print(f[index]+"@");
+							} catch (Exception e) {
+								out.print(""+"@");
+							}
+							
 						}
 						out.println();
 					}

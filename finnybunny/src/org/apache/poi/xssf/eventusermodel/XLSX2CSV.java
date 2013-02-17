@@ -29,6 +29,7 @@ import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 
+import org.apache.commons.lang.StringUtils;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.apache.poi.openxml4j.exceptions.OpenXML4JException;
 import org.apache.poi.openxml4j.opc.OPCPackage;
@@ -279,12 +280,19 @@ public class XLSX2CSV {
                 if (lastColumnNumber == -1) {
                     lastColumnNumber = 0;
                 }
-                for (int i = lastColumnNumber; i < thisColumn; ++i)
-                    output.print("@");
-
+                for (int i = lastColumnNumber; i < thisColumn; ++i){
+                    if(i==thisColumn-1)
+                	output.print("@");
+                    else
+                    output.print("@null");
+                }   
                 // Might be the empty string.
-                output.print(thisStr);
-
+                if(StringUtils.isNotBlank(thisStr)&&StringUtils.isNotBlank(thisStr.trim())){
+                	output.print(thisStr);
+                }
+                else{
+                	output.print("null");
+                }
                 // Update column
                 if (thisColumn > -1)
                     lastColumnNumber = thisColumn;
@@ -298,7 +306,7 @@ public class XLSX2CSV {
                         lastColumnNumber = 0;
                     }
                     for (int i = lastColumnNumber; i < (this.minColumnCount); i++) {
-                        output.print("@");
+                        output.print("@");output.print("null");
                     }
                 }
 

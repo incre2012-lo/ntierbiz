@@ -1,0 +1,2 @@
+eStratG is a  enterprise for Open Source ERP, Open Source CRM, Open Source E-Business / E-Commerce, Open Source SCM, Open Source MRP, Open Source CMMS/EAM, and so on.
+A Market Place where you can get started right away and then grow your operations as your business grows, without the huge deployment and maintenance costs of traditional enterprise automation systems.
